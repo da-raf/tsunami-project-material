@@ -1,0 +1,3 @@
+Die Testsuite zu SWE_TsunamiScenario befindet sich im selben Ordner wie das Szenario (src/scenarios).
+Gebaut werden die Tests mit "$ sh buildtests".
+Anschließend können sie mit "$ ./runner" ausgeführt werden.
