@@ -1,0 +1,641 @@
+WARNING(amplifier_xe): Support for non-Intel systems is limited.
+WARNING(amplifier_xe): Kernel module not loaded; only partial functionality supported in VTune.
+
+*************************************************************
+Welcome to SWE
+
+SWE Copyright (C) 2012-2013
+  Technische Universitaet Muenchen
+  Department of Informatics
+  Chair of Scientific Computing
+  http://www5.in.tum.de/SWE
+
+SWE comes with ABSOLUTELY NO WARRANTY.
+SWE is free software, and you are welcome to redistribute it
+under certain conditions.
+Details can be found in the file 'gpl.txt'.
+*************************************************************
+Sun Jun  9 18:39:30 2013	Writing output file at time: 0 seconds
+
+------------------------------------------------------------------
+Sun Jun  9 18:39:30 2013	Everything is set up, starting the simulation.
+------------------------------------------------------------------
+Sun Jun  9 18:39:30 2013	Simulation at time: 0.318956 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 0.63692 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 0.953914 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 1.26996 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 1.58507 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 1.89927 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 2.2126 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 2.52508 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 2.83676 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 3.14767 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 3.45784 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 3.76732 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 4.07613 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 4.38431 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 4.69191 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 4.99896 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 5.30553 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 5.61165 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 5.91736 seconds.
+Sun Jun  9 18:39:30 2013	Simulation at time: 6.22269 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 6.52767 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 6.83237 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 7.13683 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 7.44109 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 7.74521 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 8.04918 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 8.35303 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 8.65683 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 8.96061 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 9.26433 seconds.
+Sun Jun  9 18:39:31 2013	Writing output file at time: 9.26433 seconds
+Sun Jun  9 18:39:31 2013	Simulation at time: 9.56804 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 9.87175 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 10.1754 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 10.4791 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 10.7827 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 11.0862 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 11.3896 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 11.6929 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 11.9961 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 12.2992 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 12.6022 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 12.9051 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 13.2079 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 13.5107 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 13.8135 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 14.1162 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 14.419 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 14.7218 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 15.0246 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 15.3275 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 15.6306 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 15.9337 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 16.2371 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 16.5405 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 16.8442 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 17.1481 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 17.4522 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 17.7565 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 18.061 seconds.
+Sun Jun  9 18:39:31 2013	Writing output file at time: 18.061 seconds
+Sun Jun  9 18:39:31 2013	Simulation at time: 18.3659 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 18.671 seconds.
+Sun Jun  9 18:39:31 2013	Simulation at time: 18.9764 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 19.2822 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 19.5882 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 19.8946 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 20.2014 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 20.5084 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 20.8159 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 21.1237 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 21.4318 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 21.7404 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 22.0493 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 22.3586 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 22.6682 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 22.9783 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 23.2887 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 23.5994 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 23.9101 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 24.2208 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 24.5314 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 24.8421 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 25.1527 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 25.4634 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 25.774 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 26.0846 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 26.3952 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 26.7058 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 27.0164 seconds.
+Sun Jun  9 18:39:32 2013	Writing output file at time: 27.0164 seconds
+Sun Jun  9 18:39:32 2013	Simulation at time: 27.3271 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 27.6377 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 27.9484 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 28.259 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 28.5697 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 28.8804 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 29.1912 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 29.5019 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 29.8127 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 30.1235 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 30.4343 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 30.7452 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 31.056 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 31.3669 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 31.6779 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 31.9888 seconds.
+Sun Jun  9 18:39:32 2013	Simulation at time: 32.2997 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 32.6107 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 32.9217 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 33.2327 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 33.5438 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 33.8548 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 34.1659 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 34.477 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 34.7881 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 35.0992 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 35.4103 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 35.7214 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 36.0326 seconds.
+Sun Jun  9 18:39:33 2013	Writing output file at time: 36.0326 seconds
+Sun Jun  9 18:39:33 2013	Simulation at time: 36.3437 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 36.6549 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 36.9661 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 37.2773 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 37.5884 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 37.8996 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 38.2109 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 38.5221 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 38.8333 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 39.1445 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 39.4557 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 39.767 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 40.0782 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 40.3895 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 40.7007 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 41.012 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 41.3232 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 41.6345 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 41.9458 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 42.257 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 42.5683 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 42.8796 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 43.1908 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 43.5021 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 43.8134 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 44.1247 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 44.436 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 44.7473 seconds.
+Sun Jun  9 18:39:33 2013	Simulation at time: 45.0585 seconds.
+Sun Jun  9 18:39:33 2013	Writing output file at time: 45.0585 seconds
+Sun Jun  9 18:39:34 2013	Simulation at time: 45.3698 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 45.6811 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 45.9924 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 46.3037 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 46.615 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 46.9263 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 47.2376 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 47.5489 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 47.8602 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 48.1715 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 48.4828 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 48.7941 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 49.1054 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 49.4167 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 49.728 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 50.0393 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 50.3506 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 50.6619 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 50.9732 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 51.2845 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 51.5958 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 51.9071 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 52.2185 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 52.5298 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 52.8411 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 53.1524 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 53.4637 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 53.775 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 54.0863 seconds.
+Sun Jun  9 18:39:34 2013	Writing output file at time: 54.0863 seconds
+Sun Jun  9 18:39:34 2013	Simulation at time: 54.3976 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 54.7089 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 55.0203 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 55.3316 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 55.6429 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 55.9542 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 56.2655 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 56.5768 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 56.8882 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 57.1995 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 57.5108 seconds.
+Sun Jun  9 18:39:34 2013	Simulation at time: 57.8221 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 58.1334 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 58.4448 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 58.7561 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 59.0674 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 59.3787 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 59.6901 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 60.0014 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 60.3127 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 60.624 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 60.9353 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 61.2466 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 61.558 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 61.8693 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 62.1806 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 62.4919 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 62.8032 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 63.1145 seconds.
+Sun Jun  9 18:39:35 2013	Writing output file at time: 63.1145 seconds
+Sun Jun  9 18:39:35 2013	Simulation at time: 63.4258 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 63.7371 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 64.0484 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 64.3597 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 64.671 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 64.9823 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 65.2936 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 65.6049 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 65.9162 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 66.2275 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 66.5388 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 66.8501 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 67.1614 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 67.4727 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 67.784 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 68.0953 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 68.4066 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 68.7179 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 69.0292 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 69.3405 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 69.6518 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 69.9631 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 70.2743 seconds.
+Sun Jun  9 18:39:35 2013	Simulation at time: 70.5856 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 70.8969 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 71.2082 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 71.5195 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 71.8308 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 72.1421 seconds.
+Sun Jun  9 18:39:36 2013	Writing output file at time: 72.1421 seconds
+Sun Jun  9 18:39:36 2013	Simulation at time: 72.4533 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 72.7646 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 73.0759 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 73.3872 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 73.6985 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 74.0098 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 74.3211 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 74.6323 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 74.9436 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 75.2549 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 75.5662 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 75.8775 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 76.1887 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 76.5 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 76.8113 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 77.1226 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 77.4339 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 77.7451 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 78.0564 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 78.3677 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 78.679 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 78.9903 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 79.3015 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 79.6128 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 79.9241 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 80.2354 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 80.5467 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 80.8579 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 81.1692 seconds.
+Sun Jun  9 18:39:36 2013	Writing output file at time: 81.1692 seconds
+Sun Jun  9 18:39:36 2013	Simulation at time: 81.4805 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 81.7918 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 82.1031 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 82.4143 seconds.
+Sun Jun  9 18:39:36 2013	Simulation at time: 82.7256 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 83.0369 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 83.3482 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 83.6594 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 83.9707 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 84.282 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 84.5932 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 84.9045 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 85.2158 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 85.5271 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 85.8383 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 86.1496 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 86.4609 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 86.7721 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 87.0834 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 87.3947 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 87.706 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 88.0172 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 88.3285 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 88.6398 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 88.951 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 89.2623 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 89.5736 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 89.8849 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 90.1961 seconds.
+Sun Jun  9 18:39:37 2013	Writing output file at time: 90.1961 seconds
+Sun Jun  9 18:39:37 2013	Simulation at time: 90.5074 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 90.8187 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 91.13 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 91.4412 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 91.7525 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 92.0638 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 92.375 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 92.6863 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 92.9976 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 93.3089 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 93.6201 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 93.9314 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 94.2427 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 94.5539 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 94.8652 seconds.
+Sun Jun  9 18:39:37 2013	Simulation at time: 95.1765 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 95.4878 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 95.799 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 96.1103 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 96.4216 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 96.7328 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 97.0441 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 97.3554 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 97.6667 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 97.9779 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 98.2892 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 98.6005 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 98.9117 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 99.223 seconds.
+Sun Jun  9 18:39:38 2013	Writing output file at time: 99.223 seconds
+Sun Jun  9 18:39:38 2013	Simulation at time: 99.5343 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 99.8456 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 100.157 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 100.468 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 100.779 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 101.091 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 101.402 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 101.713 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 102.024 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 102.336 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 102.647 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 102.958 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 103.27 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 103.581 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 103.892 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 104.203 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 104.515 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 104.826 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 105.137 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 105.448 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 105.76 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 106.071 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 106.382 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 106.694 seconds.
+Sun Jun  9 18:39:38 2013	Simulation at time: 107.005 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 107.316 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 107.627 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 107.939 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 108.25 seconds.
+Sun Jun  9 18:39:39 2013	Writing output file at time: 108.25 seconds
+Sun Jun  9 18:39:39 2013	Simulation at time: 108.561 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 108.872 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 109.184 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 109.495 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 109.806 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 110.117 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 110.429 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 110.74 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 111.051 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 111.362 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 111.674 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 111.985 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 112.296 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 112.608 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 112.919 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 113.23 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 113.541 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 113.853 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 114.164 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 114.475 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 114.786 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 115.098 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 115.409 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 115.72 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 116.031 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 116.343 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 116.654 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 116.965 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 117.277 seconds.
+Sun Jun  9 18:39:39 2013	Writing output file at time: 117.277 seconds
+Sun Jun  9 18:39:39 2013	Simulation at time: 117.588 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 117.899 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 118.21 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 118.522 seconds.
+Sun Jun  9 18:39:39 2013	Simulation at time: 118.833 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 119.144 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 119.455 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 119.767 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 120.078 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 120.389 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 120.7 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 121.012 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 121.323 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 121.634 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 121.945 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 122.257 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 122.568 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 122.879 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 123.191 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 123.502 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 123.813 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 124.124 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 124.436 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 124.747 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 125.058 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 125.369 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 125.681 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 125.992 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 126.303 seconds.
+Sun Jun  9 18:39:40 2013	Writing output file at time: 126.303 seconds
+Sun Jun  9 18:39:40 2013	Simulation at time: 126.614 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 126.926 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 127.237 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 127.548 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 127.859 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 128.171 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 128.482 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 128.793 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 129.105 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 129.416 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 129.727 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 130.038 seconds.
+Sun Jun  9 18:39:40 2013	Simulation at time: 130.35 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 130.661 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 130.972 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 131.283 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 131.595 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 131.906 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 132.217 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 132.528 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 132.84 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 133.151 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 133.462 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 133.773 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 134.085 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 134.396 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 134.707 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 135.019 seconds.
+Sun Jun  9 18:39:41 2013	Writing output file at time: 135.019 seconds
+Sun Jun  9 18:39:41 2013	Simulation at time: 135.33 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 135.641 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 135.952 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 136.264 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 136.575 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 136.886 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 137.197 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 137.509 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 137.82 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 138.131 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 138.442 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 138.754 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 139.065 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 139.376 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 139.688 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 139.999 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 140.31 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 140.621 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 140.933 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 141.244 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 141.555 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 141.866 seconds.
+Sun Jun  9 18:39:41 2013	Simulation at time: 142.178 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 142.489 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 142.8 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 143.111 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 143.423 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 143.734 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 144.045 seconds.
+Sun Jun  9 18:39:42 2013	Writing output file at time: 144.045 seconds
+Sun Jun  9 18:39:42 2013	Simulation at time: 144.356 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 144.668 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 144.979 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 145.29 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 145.602 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 145.913 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 146.224 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 146.535 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 146.847 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 147.158 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 147.469 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 147.78 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 148.092 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 148.403 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 148.714 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 149.025 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 149.337 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 149.648 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 149.959 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 150.27 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 150.582 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 150.893 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 151.204 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 151.516 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 151.827 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 152.138 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 152.449 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 152.761 seconds.
+Sun Jun  9 18:39:42 2013	Simulation at time: 153.072 seconds.
+Sun Jun  9 18:39:42 2013	Writing output file at time: 153.072 seconds
+Sun Jun  9 18:39:42 2013	Simulation at time: 153.383 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 153.694 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 154.006 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 154.317 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 154.628 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 154.939 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 155.251 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 155.562 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 155.873 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 156.185 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 156.496 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 156.807 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 157.118 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 157.43 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 157.741 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 158.052 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 158.363 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 158.675 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 158.986 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 159.297 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 159.608 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 159.92 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 160.231 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 160.542 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 160.853 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 161.165 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 161.476 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 161.787 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 162.099 seconds.
+Sun Jun  9 18:39:43 2013	Writing output file at time: 162.099 seconds
+Sun Jun  9 18:39:43 2013	Simulation at time: 162.41 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 162.721 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 163.032 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 163.344 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 163.655 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 163.966 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 164.277 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 164.589 seconds.
+Sun Jun  9 18:39:43 2013	Simulation at time: 164.9 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 165.211 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 165.522 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 165.834 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 166.145 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 166.456 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 166.767 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 167.079 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 167.39 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 167.701 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 168.013 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 168.324 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 168.635 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 168.946 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 169.258 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 169.569 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 169.88 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 170.191 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 170.503 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 170.814 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 171.125 seconds.
+Sun Jun  9 18:39:44 2013	Writing output file at time: 171.125 seconds
+Sun Jun  9 18:39:44 2013	Simulation at time: 171.436 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 171.748 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 172.059 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 172.37 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 172.682 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 172.993 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 173.304 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 173.615 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 173.927 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 174.238 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 174.549 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 174.86 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 175.172 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 175.483 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 175.794 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 176.105 seconds.
+Sun Jun  9 18:39:44 2013	Simulation at time: 176.417 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 176.728 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 177.039 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 177.35 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 177.662 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 177.973 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 178.284 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 178.596 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 178.907 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 179.218 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 179.529 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 179.841 seconds.
+Sun Jun  9 18:39:45 2013	Simulation at time: 180.152 seconds.
+Sun Jun  9 18:39:45 2013	Writing output file at time: 180.152 seconds
+
+------------------------------------------------------------------
+Sun Jun  9 18:39:45 2013	Simulation finished. Printing statistics for each process.
+------------------------------------------------------------------
+Sun Jun  9 18:39:45 2013	process 0 - CPU time: 14.29 seconds
+Sun Jun  9 18:39:45 2013	process 0 - wall clock time: 15 seconds
+Sun Jun  9 18:39:45 2013	580 iterations done
+
+*************************************************************
+SWE finished successfully.
+*************************************************************
+Using result path `/home/hpc/t1221/di34muz/SWE/build/r001hs'
+Executing actions  0 %                                                         Executing actions  0 % Finalizing results                                      Executing actions  0 % Finalizing the result                                   Executing actions  0 % Clearing the database                                   Executing actions  8 % Clearing the database                                   Executing actions  8 % Loading raw data to the database                        Executing actions  8 % Loading data files                                      Executing actions  8 % Loading '2139-2143.0.trace' file                        Executing actions 14 % Loading '2139-2143.0.trace' file                        Executing actions 16 % Loading '2139-2143.0.trace' file                        Executing actions 16 % Loading data files                                      Executing actions 16 % Running data transformations                            Executing actions 25 % Running data transformations                            Executing actions 25 % Precomputing frequently used data                       Executing actions 26 % Precomputing frequently used data                       Executing actions 27 % Precomputing frequently used data                       Executing actions 28 % Precomputing frequently used data                       Executing actions 29 % Precomputing frequently used data                       Executing actions 30 % Precomputing frequently used data                       Executing actions 31 % Precomputing frequently used data                       Executing actions 31 % Updating precomputed scalar metrics                     Executing actions 33 % Updating precomputed scalar metrics                     Executing actions 33 % Resolving module symbols                                Executing actions 33 % Resolving information for `SWE_intel_release_none_fwave'Executing actions 33 % Resolving information for `libpthread-2.11.3.so'        Executing actions 33 % Resolving information for `libstdc++.so.6.0.16'         Executing actions 33 % Resolving information for `libc-2.11.3.so'              Executing actions 33 % Resolving information for `libnetcdf.so.7.2.0'          Executing actions 33 % Resolving information for `libhdf5.so.7.0.3'            Executing actions 33 % Resolving information for `libtpsstool.so'              Executing actions 34 % Resolving information for `libtpsstool.so'              Executing actions 35 % Resolving information for `libtpsstool.so'              Executing actions 36 % Resolving information for `libtpsstool.so'              Executing actions 37 % Resolving information for `libtpsstool.so'              Executing actions 38 % Resolving information for `libtpsstool.so'              Executing actions 39 % Resolving information for `libtpsstool.so'              Executing actions 40 % Resolving information for `libtpsstool.so'              Executing actions 41 % Resolving information for `libtpsstool.so'              Executing actions 41 % Discarding redundant overtime data                      Executing actions 43 % Discarding redundant overtime data                      Executing actions 43 % Saving the result                                       Executing actions 45 % Saving the result                                       Executing actions 47 % Saving the result                                       Executing actions 50 % Saving the result                                       Executing actions 50 % Generating a report                                     Executing actions 50 % Setting knob values                                     Executing actions 75 % Setting knob values                                     Executing actions 75 % Generating a report                                     
+Summary
+-------
+
+Elapsed Time:  18.349
+CPU Time:      18.110
+Executing actions 100 % Generating a report                                    Executing actions 100 % done                                                   
