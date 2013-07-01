@@ -1,0 +1,80 @@
+\hypertarget{classsolver_1_1FWave}{\section{solver\-:\-:F\-Wave$<$ T $>$ Class Template Reference}
+\label{classsolver_1_1FWave}\index{solver\-::\-F\-Wave$<$ T $>$@{solver\-::\-F\-Wave$<$ T $>$}}
+}
+
+
+{\ttfamily \#include $<$F\-Wave.\-hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classsolver_1_1FWave_afb2981b71645544fe7d5a6f67553cf37}{compute\-Net\-Updates} (const T \&h\-Left, const T \&h\-Right, const T \&hu\-Left, const T \&hu\-Right, const T \&bath\-Left, const T \&bath\-Right, const T \&u\-Left, const T \&u\-Right, T \&h\-Net\-Updates\-Left, T \&h\-Net\-Updates\-Right, T \&hu\-Net\-Updates\-Left, T \&hu\-Net\-Updates\-Right, T \&max\-Edge\-Speed)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$class T$>$class solver\-::\-F\-Wave$<$ T $>$}
+
+This class will approximately solve the initial value problem for the {\bfseries shallow water equations} over time\-: 
+\begin{DoxyPre}
+/ h  \textbackslash{}   /    hu           \textbackslash{}
+|    | + |                 |  = S(x,t)
+\textbackslash{} hu /   \textbackslash{} hu^2 + 1/2*gh^2 /
+\end{DoxyPre}
+ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classsolver_1_1FWave_afb2981b71645544fe7d5a6f67553cf37}{\index{solver\-::\-F\-Wave@{solver\-::\-F\-Wave}!compute\-Net\-Updates@{compute\-Net\-Updates}}
+\index{compute\-Net\-Updates@{compute\-Net\-Updates}!solver::FWave@{solver\-::\-F\-Wave}}
+\subsubsection[{compute\-Net\-Updates}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T$>$ void F\-Wave\-::compute\-Net\-Updates (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{h\-Left, }
+\item[{const T \&}]{h\-Right, }
+\item[{const T \&}]{hu\-Left, }
+\item[{const T \&}]{hu\-Right, }
+\item[{const T \&}]{bath\-Left, }
+\item[{const T \&}]{bath\-Right, }
+\item[{const T \&}]{u\-Left, }
+\item[{const T \&}]{u\-Right, }
+\item[{T \&}]{h\-Net\-Updates\-Left, }
+\item[{T \&}]{h\-Net\-Updates\-Right, }
+\item[{T \&}]{hu\-Net\-Updates\-Left, }
+\item[{T \&}]{hu\-Net\-Updates\-Right, }
+\item[{T \&}]{max\-Edge\-Speed}
+\end{DoxyParamCaption}
+)}}\label{classsolver_1_1FWave_afb2981b71645544fe7d5a6f67553cf37}
+calculate the net-\/updates for a simulation of the flow of water
+
+This implementation will calculate the net-\/updates for a simulation of flow of water using the height of the water column and its momentum as parameters.
+
+
+\begin{DoxyParams}{Parameters}
+{\em h\-Left} & water column height on the left side \\
+\hline
+{\em h\-Right} & water column height on the right side \\
+\hline
+{\em hu\-Left} & momentum of the water on the left side \\
+\hline
+{\em hu\-Right} & momentum of the water on the right side \\
+\hline
+{\em bath\-Left} & elevation of the ocean floor on the left side \\
+\hline
+{\em bath\-Right} & elevation of the ocean floor on the right side \\
+\hline
+{\em h\-Net\-Updates\-Left} & reference to the variable that will store the update to the height of the water column on the left \\
+\hline
+{\em h\-Net\-Updates\-Right} & reference to the variable that will store the update to the height of the water column on the right \\
+\hline
+{\em hu\-Net\-Updates\-Left} & reference to the variable that will store the update to the momentum of the water on the left \\
+\hline
+{\em hu\-Net\-Updates\-Right} & reference to the variable that will store the update to the momentum of the water on the right \\
+\hline
+{\em max\-Edge\-Speed} & reference to the variable that will store the maximum edge-\/speed \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/submodules/f-\/wave-\/solver/src/\hyperlink{FWave_8hpp}{F\-Wave.\-hpp}\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/submodules/f-\/wave-\/solver/src/\hyperlink{FWave_8cpp}{F\-Wave.\-cpp}\end{DoxyCompactItemize}

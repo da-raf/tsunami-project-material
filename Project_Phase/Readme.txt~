@@ -1,0 +1,5 @@
+The Programm boyehelper is needed to get the data from one Boye in a own file for paraview
+Compile note: linker for netdcdf needed
+eg use: if your Boyes are in fiel xy_00_Boye.nc and you want to get the Boye #3
+        ./BoyeHelper xy_00_Boye 3
+

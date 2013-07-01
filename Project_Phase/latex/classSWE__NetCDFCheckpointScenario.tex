@@ -1,0 +1,252 @@
+\hypertarget{classSWE__NetCDFCheckpointScenario}{\section{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario Class Reference}
+\label{classSWE__NetCDFCheckpointScenario}\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+}
+Inheritance diagram for S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classSWE__NetCDFCheckpointScenario}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSWE__NetCDFCheckpointScenario_affda8845a2fb7b86de83b1dc37597973}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario} ()
+\item 
+int \hyperlink{classSWE__NetCDFCheckpointScenario_aa9b5315744f1b3185b6222bbad311ea8}{read\-Net\-C\-D\-F} (const char $\ast$data\-\_\-file, const char $\ast$C\-P\-File)
+\item 
+float \hyperlink{classSWE__NetCDFCheckpointScenario_a15edd99b98b717cf20fe0336f7e55dc6}{get\-Water\-Height} (float x, float y)
+\item 
+float \hyperlink{classSWE__NetCDFCheckpointScenario_a8be504f26a1ba89e7c1e90e9e9901a4c}{get\-Bathymetry} (float x, float y)
+\item 
+float \hyperlink{classSWE__NetCDFCheckpointScenario_a18446d2b2d5763661c3dc64806151308}{get\-Veloc\-\_\-u} (float x, float y)
+\item 
+float \hyperlink{classSWE__NetCDFCheckpointScenario_a4a189381c6ee4747a7d04bd9f7de4cd9}{get\-Veloc\-\_\-v} (float x, float y)
+\item 
+float \hyperlink{classSWE__NetCDFCheckpointScenario_a7df5284c9391c296787d865f5abedd70}{get\-Time} ()
+\item 
+float \hyperlink{classSWE__NetCDFCheckpointScenario_ae5f905b453ee5f1d30276be57648e5b5}{get\-Boundary\-Pos} (\hyperlink{SWE__Scenario_8hh_aa5e01e3f7df312f7b9b0d02521141fcc}{Boundary\-Edge} i\-\_\-edge)
+\item 
+float \hyperlink{classSWE__NetCDFCheckpointScenario_ada5e3dde66e11532227e35f6104aa9bd}{end\-Simulation} ()
+\item 
+\hyperlink{SWE__Scenario_8hh_af75d5dd7322fa39ed0af4e7839e600f8}{Boundary\-Type} \hyperlink{classSWE__NetCDFCheckpointScenario_a5f4488ddce7c2dc4c14e4698c36881ae}{get\-Boundary\-Type} (\hyperlink{SWE__Scenario_8hh_aa5e01e3f7df312f7b9b0d02521141fcc}{Boundary\-Edge} edge)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classSWE__NetCDFCheckpointScenario_affda8845a2fb7b86de83b1dc37597973}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}]{\setlength{\rightskip}{0pt plus 5cm}S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::\-S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classSWE__NetCDFCheckpointScenario_affda8845a2fb7b86de83b1dc37597973}
+load a scenario from a net\-C\-D\-F file
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & the net\-C\-D\-F file to load \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classSWE__NetCDFCheckpointScenario_ada5e3dde66e11532227e35f6104aa9bd}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!end\-Simulation@{end\-Simulation}}
+\index{end\-Simulation@{end\-Simulation}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{end\-Simulation}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::end\-Simulation (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_ada5e3dde66e11532227e35f6104aa9bd}
+This funktion returns the planed Simulationtime
+
+\begin{DoxyReturn}{Returns}
+Planed \hyperlink{classSimulation}{Simulation} Time 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__NetCDFCheckpointScenario_a8be504f26a1ba89e7c1e90e9e9901a4c}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!get\-Bathymetry@{get\-Bathymetry}}
+\index{get\-Bathymetry@{get\-Bathymetry}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{get\-Bathymetry}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::get\-Bathymetry (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_a8be504f26a1ba89e7c1e90e9e9901a4c}
+This funktion returns the last written Bathymetry at the Position (x,y) at time = Zero
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Requested x Position \\
+\hline
+{\em y} & Requested y Position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bathymetry ot Requested Position 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__NetCDFCheckpointScenario_ae5f905b453ee5f1d30276be57648e5b5}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!get\-Boundary\-Pos@{get\-Boundary\-Pos}}
+\index{get\-Boundary\-Pos@{get\-Boundary\-Pos}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{get\-Boundary\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::get\-Boundary\-Pos (
+\begin{DoxyParamCaption}
+\item[{{\bf Boundary\-Edge}}]{i\-\_\-edge}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_ae5f905b453ee5f1d30276be57648e5b5}
+get\-Boundary\-Pos will return the position of the boundary \#i\-\_\-edge on the axis orthogonal to the boundary
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\-\_\-edge} & the boundary we want to get the position of \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the position of the boundary on the axis orthogonal to it 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__NetCDFCheckpointScenario_a5f4488ddce7c2dc4c14e4698c36881ae}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!get\-Boundary\-Type@{get\-Boundary\-Type}}
+\index{get\-Boundary\-Type@{get\-Boundary\-Type}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{get\-Boundary\-Type}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Boundary\-Type} S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::get\-Boundary\-Type (
+\begin{DoxyParamCaption}
+\item[{{\bf Boundary\-Edge}}]{edge}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_a5f4488ddce7c2dc4c14e4698c36881ae}
+This function returns the Boundary\-Type for the requested edge from the C\-P-\/\-File \subsubsection*{Translationtabel\-:}
+
+$|$\-O\-U\-T\-F\-L\-O\-W $|$ 0 $|$ $|$\-W\-A\-L\-L $|$ 1 $|$ $|$\-I\-N\-F\-L\-O\-W $|$ 2 $|$ $|$\-C\-O\-N\-N\-E\-C\-T $|$ 3 $|$ $|$\-P\-A\-S\-S\-I\-V\-E $|$ 4 $|$ \subsubsection*{$|$\-O\-T\-H\-E\-R\-S $|$ 5 $|$}
+
+Order of Edges in C\-P-\/\-File\-: \{B\-N\-D\-\_\-\-T\-O\-P,B\-N\-D\-\_\-\-B\-O\-T\-T\-O\-M,B\-N\-D\-\_\-\-L\-E\-F\-T,B\-N\-D\-\_\-\-R\-I\-G\-H\-T\}
+
+
+\begin{DoxyParams}{Parameters}
+{\em edge} & requested boundary Edge  Boundary\-Type of edge \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__NetCDFCheckpointScenario_a7df5284c9391c296787d865f5abedd70}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!get\-Time@{get\-Time}}
+\index{get\-Time@{get\-Time}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{get\-Time}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::get\-Time (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_a7df5284c9391c296787d865f5abedd70}
+This function Returns the Time of the Checkpoint
+
+\begin{DoxyReturn}{Returns}
+Checkpoint-\/\-Time 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__NetCDFCheckpointScenario_a18446d2b2d5763661c3dc64806151308}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!get\-Veloc\-\_\-u@{get\-Veloc\-\_\-u}}
+\index{get\-Veloc\-\_\-u@{get\-Veloc\-\_\-u}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{get\-Veloc\-\_\-u}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::get\-Veloc\-\_\-u (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_a18446d2b2d5763661c3dc64806151308}
+This funktion returns the last written Horizontal-\/\-Velocity at the Position (x,y)
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Requested x Position \\
+\hline
+{\em y} & Requested y Position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Velocity ot Requested Position 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__NetCDFCheckpointScenario_a4a189381c6ee4747a7d04bd9f7de4cd9}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!get\-Veloc\-\_\-v@{get\-Veloc\-\_\-v}}
+\index{get\-Veloc\-\_\-v@{get\-Veloc\-\_\-v}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{get\-Veloc\-\_\-v}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::get\-Veloc\-\_\-v (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_a4a189381c6ee4747a7d04bd9f7de4cd9}
+This funktion returns the last written Vertical-\/\-Velocity at the Position (x,y)
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Requested x Position \\
+\hline
+{\em y} & Requested y Position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Velocity ot Requested Position 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__NetCDFCheckpointScenario_a15edd99b98b717cf20fe0336f7e55dc6}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!get\-Water\-Height@{get\-Water\-Height}}
+\index{get\-Water\-Height@{get\-Water\-Height}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{get\-Water\-Height}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::get\-Water\-Height (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_a15edd99b98b717cf20fe0336f7e55dc6}
+This funktion returns the last written Waterheight at the Position (x,y)
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Requested x Position \\
+\hline
+{\em y} & Requested y Position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Waterheight ot Requested Position 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__NetCDFCheckpointScenario_aa9b5315744f1b3185b6222bbad311ea8}{\index{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}!read\-Net\-C\-D\-F@{read\-Net\-C\-D\-F}}
+\index{read\-Net\-C\-D\-F@{read\-Net\-C\-D\-F}!SWE_NetCDFCheckpointScenario@{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario}}
+\subsubsection[{read\-Net\-C\-D\-F}]{\setlength{\rightskip}{0pt plus 5cm}int S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario\-::read\-Net\-C\-D\-F (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{data\-\_\-file, }
+\item[{const char $\ast$}]{C\-P\-File}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__NetCDFCheckpointScenario_aa9b5315744f1b3185b6222bbad311ea8}
+read\-Net\-C\-D\-F will initialize the ids of the nc file and the ids of all the variables which are being used
+
+
+\begin{DoxyParams}{Parameters}
+{\em data\-\_\-file} & the name of the nc-\/file to be opened \\
+\hline
+{\em C\-P\-File} & filename of the checkpoint file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if successfull, else the error value of the netcdf-\/library 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/src/scenarios/\hyperlink{SWE__NetCDFCheckpointScenario_8hh}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Checkpoint\-Scenario.\-hh}\end{DoxyCompactItemize}

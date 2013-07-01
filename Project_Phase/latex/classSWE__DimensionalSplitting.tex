@@ -1,0 +1,170 @@
+\hypertarget{classSWE__DimensionalSplitting}{\section{S\-W\-E\-\_\-\-Dimensional\-Splitting Class Reference}
+\label{classSWE__DimensionalSplitting}\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+}
+Inheritance diagram for S\-W\-E\-\_\-\-Dimensional\-Splitting\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classSWE__DimensionalSplitting}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classSWE__DimensionalSplitting_a3ab0c9de647ca241dbab1aa02cc42a04}{{\bfseries S\-W\-E\-\_\-\-Dimensional\-Splitting} (int l\-\_\-nx, int l\-\_\-ny, float l\-\_\-dx, float l\-\_\-dy)}\label{classSWE__DimensionalSplitting_a3ab0c9de647ca241dbab1aa02cc42a04}
+
+\item 
+void \hyperlink{classSWE__DimensionalSplitting_a205a7f520d5c809d940273f09f22661f}{simulate\-Timestep} (float dt)
+\item 
+float \hyperlink{classSWE__DimensionalSplitting_a7f922283cd593ed0f09a177e9167ef77}{simulate} (float t\-Start, float t\-End)
+\item 
+void \hyperlink{classSWE__DimensionalSplitting_a84759f8fbbbfe1e46613375515826f0f}{compute\-Numerical\-Fluxes} ()
+\item 
+void \hyperlink{classSWE__DimensionalSplitting_af74b527ff9ca7727442db92d2e438531}{update\-Unknowns} (float dt)
+\item 
+void \hyperlink{classSWE__DimensionalSplitting_a41bfc084f565416d3c1c3e9a38bf104c}{run\-Timestep} ()
+\item 
+void \hyperlink{classSWE__DimensionalSplitting_a24764ff5688b84190e48df61ad44a453}{run\-Timestep} (float tmax)
+\item 
+void \hyperlink{classSWE__DimensionalSplitting_a874f2fabea21f0c6fbdd447844f7587e}{update\-Bathymetry} (\hyperlink{classSWE__Scenario}{S\-W\-E\-\_\-\-Scenario} \&scenario, float time)
+\item 
+int \hyperlink{classSWE__DimensionalSplitting_acdb957c5955f90997c48917bf14d6bd4}{get\-Xpos} (float x)
+\item 
+int \hyperlink{classSWE__DimensionalSplitting_a965c307bfb06ffaf6370784156248a41}{get\-Ypos} (float y)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classSWE__DimensionalSplitting_a84759f8fbbbfe1e46613375515826f0f}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!compute\-Numerical\-Fluxes@{compute\-Numerical\-Fluxes}}
+\index{compute\-Numerical\-Fluxes@{compute\-Numerical\-Fluxes}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{compute\-Numerical\-Fluxes}]{\setlength{\rightskip}{0pt plus 5cm}void S\-W\-E\-\_\-\-Dimensional\-Splitting\-::compute\-Numerical\-Fluxes (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classSWE__DimensionalSplitting_a84759f8fbbbfe1e46613375515826f0f}
+calculate the net-\/updates for the current state of the fluid, that can be applied later by \hyperlink{classSWE__DimensionalSplitting_af74b527ff9ca7727442db92d2e438531}{update\-Unknowns}
+
+Important if you change max\-Timestep between this function an \#update\-Unkowns the accurancy of the calculation is not given any more. 
+
+Implements \hyperlink{classSWE__Block_a94dcf2c6ae31731e4586e45628b0c00e}{S\-W\-E\-\_\-\-Block}.
+
+\hypertarget{classSWE__DimensionalSplitting_acdb957c5955f90997c48917bf14d6bd4}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!get\-Xpos@{get\-Xpos}}
+\index{get\-Xpos@{get\-Xpos}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{get\-Xpos}]{\setlength{\rightskip}{0pt plus 5cm}int S\-W\-E\-\_\-\-Dimensional\-Splitting\-::get\-Xpos (
+\begin{DoxyParamCaption}
+\item[{float}]{x}
+\end{DoxyParamCaption}
+)}}\label{classSWE__DimensionalSplitting_acdb957c5955f90997c48917bf14d6bd4}
+This function returns to an x-\/coordinate the nearest Value for x-\/\-Data\-Points 
+\begin{DoxyParams}{Parameters}
+{\em x} & requested x-\/\-Coordinate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Position of the x-\/\-Coordinate in the Block arrays 
+\end{DoxyReturn}
+\hypertarget{classSWE__DimensionalSplitting_a965c307bfb06ffaf6370784156248a41}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!get\-Ypos@{get\-Ypos}}
+\index{get\-Ypos@{get\-Ypos}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{get\-Ypos}]{\setlength{\rightskip}{0pt plus 5cm}int S\-W\-E\-\_\-\-Dimensional\-Splitting\-::get\-Ypos (
+\begin{DoxyParamCaption}
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)}}\label{classSWE__DimensionalSplitting_a965c307bfb06ffaf6370784156248a41}
+This function returns to an y-\/coordinate the nearest Value for y-\/\-Data\-Points 
+\begin{DoxyParams}{Parameters}
+{\em y} & requested y-\/\-Coordinate \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Position of the y-\/\-Coordinate in the Block arrays 
+\end{DoxyReturn}
+\hypertarget{classSWE__DimensionalSplitting_a41bfc084f565416d3c1c3e9a38bf104c}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!run\-Timestep@{run\-Timestep}}
+\index{run\-Timestep@{run\-Timestep}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{run\-Timestep}]{\setlength{\rightskip}{0pt plus 5cm}void S\-W\-E\-\_\-\-Dimensional\-Splitting\-::run\-Timestep (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classSWE__DimensionalSplitting_a41bfc084f565416d3c1c3e9a38bf104c}
+This funktion calculates and applays all changes for one Timestep \hypertarget{classSWE__DimensionalSplitting_a24764ff5688b84190e48df61ad44a453}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!run\-Timestep@{run\-Timestep}}
+\index{run\-Timestep@{run\-Timestep}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{run\-Timestep}]{\setlength{\rightskip}{0pt plus 5cm}void S\-W\-E\-\_\-\-Dimensional\-Splitting\-::run\-Timestep (
+\begin{DoxyParamCaption}
+\item[{float}]{tmax}
+\end{DoxyParamCaption}
+)}}\label{classSWE__DimensionalSplitting_a24764ff5688b84190e48df61ad44a453}
+This funktion calculates and applays all changes for one Timestep with a maximum Stepwith 
+\begin{DoxyParams}{Parameters}
+{\em tmax} & Maximum calculation Time \\
+\hline
+\end{DoxyParams}
+\hypertarget{classSWE__DimensionalSplitting_a7f922283cd593ed0f09a177e9167ef77}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!simulate@{simulate}}
+\index{simulate@{simulate}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{simulate}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Dimensional\-Splitting\-::simulate (
+\begin{DoxyParamCaption}
+\item[{float}]{t\-Start, }
+\item[{float}]{t\-End}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classSWE__DimensionalSplitting_a7f922283cd593ed0f09a177e9167ef77}
+This methode runs a simulation for the time intervall from t\-Start to t\-End
+
+
+\begin{DoxyParams}{Parameters}
+{\em t\-Start} & Start Time of the intervall \\
+\hline
+{\em t\-End} & End Time of the intervall \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classSWE__Block_a1da88bb47008dc9246a8c47d00575d1e}{S\-W\-E\-\_\-\-Block}.
+
+\hypertarget{classSWE__DimensionalSplitting_a205a7f520d5c809d940273f09f22661f}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!simulate\-Timestep@{simulate\-Timestep}}
+\index{simulate\-Timestep@{simulate\-Timestep}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{simulate\-Timestep}]{\setlength{\rightskip}{0pt plus 5cm}void S\-W\-E\-\_\-\-Dimensional\-Splitting\-::simulate\-Timestep (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classSWE__DimensionalSplitting_a205a7f520d5c809d940273f09f22661f}
+Simulates a timestep of dt and doesn't check if this time is out of the conditones 
+
+Implements \hyperlink{classSWE__Block_a4fb41f3bbbda88992e5bce802e139c9b}{S\-W\-E\-\_\-\-Block}.
+
+\hypertarget{classSWE__DimensionalSplitting_a874f2fabea21f0c6fbdd447844f7587e}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!update\-Bathymetry@{update\-Bathymetry}}
+\index{update\-Bathymetry@{update\-Bathymetry}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{update\-Bathymetry}]{\setlength{\rightskip}{0pt plus 5cm}void S\-W\-E\-\_\-\-Dimensional\-Splitting\-::update\-Bathymetry (
+\begin{DoxyParamCaption}
+\item[{{\bf S\-W\-E\-\_\-\-Scenario} \&}]{scenario, }
+\item[{float}]{time}
+\end{DoxyParamCaption}
+)}}\label{classSWE__DimensionalSplitting_a874f2fabea21f0c6fbdd447844f7587e}
+This funktion Updates the Bathymetry data in the \hyperlink{classSWE__Block}{S\-W\-E\-\_\-\-Block}
+
+
+\begin{DoxyParams}{Parameters}
+{\em \&scenario} & an reference to the scenario with the Data for the Bathymetry \\
+\hline
+{\em time} & the timestemp for the requested Bathymetry \\
+\hline
+\end{DoxyParams}
+\hypertarget{classSWE__DimensionalSplitting_af74b527ff9ca7727442db92d2e438531}{\index{S\-W\-E\-\_\-\-Dimensional\-Splitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}!update\-Unknowns@{update\-Unknowns}}
+\index{update\-Unknowns@{update\-Unknowns}!SWE_DimensionalSplitting@{S\-W\-E\-\_\-\-Dimensional\-Splitting}}
+\subsubsection[{update\-Unknowns}]{\setlength{\rightskip}{0pt plus 5cm}void S\-W\-E\-\_\-\-Dimensional\-Splitting\-::update\-Unknowns (
+\begin{DoxyParamCaption}
+\item[{float}]{dt}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classSWE__DimensionalSplitting_af74b527ff9ca7727442db92d2e438531}
+apply the net-\/updates calculated with \hyperlink{classSWE__DimensionalSplitting_a84759f8fbbbfe1e46613375515826f0f}{compute\-Numerical\-Fluxes} 
+\begin{DoxyParams}{Parameters}
+{\em dt} & Max\-Time\-Step \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classSWE__Block_ab2b4b659f23d5d45413dece8d2da3298}{S\-W\-E\-\_\-\-Block}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/src/blocks/S\-W\-E\-\_\-\-Dimensional\-Splitting.\-hh\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/src/blocks/S\-W\-E\-\_\-\-Dimensional\-Splitting.\-cpp\end{DoxyCompactItemize}

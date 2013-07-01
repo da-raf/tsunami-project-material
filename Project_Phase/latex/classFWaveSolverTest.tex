@@ -1,0 +1,90 @@
+\hypertarget{classFWaveSolverTest}{\section{F\-Wave\-Solver\-Test Class Reference}
+\label{classFWaveSolverTest}\index{F\-Wave\-Solver\-Test@{F\-Wave\-Solver\-Test}}
+}
+
+
+{\ttfamily \#include $<$F\-Wave\-Solver\-Test.\-hpp$>$}
+
+Inheritance diagram for F\-Wave\-Solver\-Test\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classFWaveSolverTest}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classFWaveSolverTest_a6a5438664fa3a9450ae77d5fc32747b1}{test\-Eigenvalues} ()
+\item 
+void \hyperlink{classFWaveSolverTest_a72acc7abe09d7d0f15ba42bab9f6e735}{test\-Flux} ()
+\item 
+void \hyperlink{classFWaveSolverTest_a395fa2b04c77f89c1f78961a7e50ab6b}{test\-Eigencoefficients} ()
+\item 
+void \hyperlink{classFWaveSolverTest_ad35f0f163ce95256f0c837243c10c590}{test\-Steady\-State} ()
+\item 
+void \hyperlink{classFWaveSolverTest_af466fbc855671b121201e2e480513da4}{test\-Supersonic} ()
+\item 
+void \hyperlink{classFWaveSolverTest_aa4d589667dac9190fece9b8ceaa9a4a9}{test\-Bathymetry} ()
+\item 
+\hypertarget{classFWaveSolverTest_a6924b65242f201eb48cfe5523fccb265}{void {\bfseries test\-Dry\-Cells} ()}\label{classFWaveSolverTest_a6924b65242f201eb48cfe5523fccb265}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is the cxxtest test-\/suite for the F\-Wave template class. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classFWaveSolverTest_aa4d589667dac9190fece9b8ceaa9a4a9}{\index{F\-Wave\-Solver\-Test@{F\-Wave\-Solver\-Test}!test\-Bathymetry@{test\-Bathymetry}}
+\index{test\-Bathymetry@{test\-Bathymetry}!FWaveSolverTest@{F\-Wave\-Solver\-Test}}
+\subsubsection[{test\-Bathymetry}]{\setlength{\rightskip}{0pt plus 5cm}void F\-Wave\-Solver\-Test\-::test\-Bathymetry (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classFWaveSolverTest_aa4d589667dac9190fece9b8ceaa9a4a9}
+check the handling of bathymetric data
+
+a steady state will be created, but with different water depths \hypertarget{classFWaveSolverTest_a395fa2b04c77f89c1f78961a7e50ab6b}{\index{F\-Wave\-Solver\-Test@{F\-Wave\-Solver\-Test}!test\-Eigencoefficients@{test\-Eigencoefficients}}
+\index{test\-Eigencoefficients@{test\-Eigencoefficients}!FWaveSolverTest@{F\-Wave\-Solver\-Test}}
+\subsubsection[{test\-Eigencoefficients}]{\setlength{\rightskip}{0pt plus 5cm}void F\-Wave\-Solver\-Test\-::test\-Eigencoefficients (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classFWaveSolverTest_a395fa2b04c77f89c1f78961a7e50ab6b}
+test\-Eigencoefficients will do a value\-Check on the function \char`\"{}eigencoeffis\char`\"{} of the template \char`\"{}\-F\-Wave\char`\"{} \hypertarget{classFWaveSolverTest_a6a5438664fa3a9450ae77d5fc32747b1}{\index{F\-Wave\-Solver\-Test@{F\-Wave\-Solver\-Test}!test\-Eigenvalues@{test\-Eigenvalues}}
+\index{test\-Eigenvalues@{test\-Eigenvalues}!FWaveSolverTest@{F\-Wave\-Solver\-Test}}
+\subsubsection[{test\-Eigenvalues}]{\setlength{\rightskip}{0pt plus 5cm}void F\-Wave\-Solver\-Test\-::test\-Eigenvalues (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classFWaveSolverTest_a6a5438664fa3a9450ae77d5fc32747b1}
+this function will test the private function roe\-Eigenvals of the template F\-Wave by performing two value checks \hypertarget{classFWaveSolverTest_a72acc7abe09d7d0f15ba42bab9f6e735}{\index{F\-Wave\-Solver\-Test@{F\-Wave\-Solver\-Test}!test\-Flux@{test\-Flux}}
+\index{test\-Flux@{test\-Flux}!FWaveSolverTest@{F\-Wave\-Solver\-Test}}
+\subsubsection[{test\-Flux}]{\setlength{\rightskip}{0pt plus 5cm}void F\-Wave\-Solver\-Test\-::test\-Flux (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classFWaveSolverTest_a72acc7abe09d7d0f15ba42bab9f6e735}
+test\-Flux will perform a fast value check on the private function \char`\"{}flux\char`\"{} of the template \char`\"{}\-F\-Wave\char`\"{} \hypertarget{classFWaveSolverTest_ad35f0f163ce95256f0c837243c10c590}{\index{F\-Wave\-Solver\-Test@{F\-Wave\-Solver\-Test}!test\-Steady\-State@{test\-Steady\-State}}
+\index{test\-Steady\-State@{test\-Steady\-State}!FWaveSolverTest@{F\-Wave\-Solver\-Test}}
+\subsubsection[{test\-Steady\-State}]{\setlength{\rightskip}{0pt plus 5cm}void F\-Wave\-Solver\-Test\-::test\-Steady\-State (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classFWaveSolverTest_ad35f0f163ce95256f0c837243c10c590}
+test\-Steady\-State will calculate the net updates for identical water columns and momentum on both sides, which have to be equal to zero \hypertarget{classFWaveSolverTest_af466fbc855671b121201e2e480513da4}{\index{F\-Wave\-Solver\-Test@{F\-Wave\-Solver\-Test}!test\-Supersonic@{test\-Supersonic}}
+\index{test\-Supersonic@{test\-Supersonic}!FWaveSolverTest@{F\-Wave\-Solver\-Test}}
+\subsubsection[{test\-Supersonic}]{\setlength{\rightskip}{0pt plus 5cm}void F\-Wave\-Solver\-Test\-::test\-Supersonic (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classFWaveSolverTest_af466fbc855671b121201e2e480513da4}
+test\-Supersonic will check the function compute\-Net\-Updates for correct behavior in the supersonic case (both eigenvalues greater/less than zero)
+\begin{DoxyItemize}
+\item greater than zero\-: the net-\/updates on the left have to be zero
+\item less than zero\-: the net-\/updates on the right have to be zero 
+\end{DoxyItemize}
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/submodules/f-\/wave-\/solver/src/F\-Wave\-Solver\-Test.\-hpp\end{DoxyCompactItemize}

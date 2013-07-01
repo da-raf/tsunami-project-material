@@ -1,0 +1,101 @@
+/**
+ * @file
+ * This file is part of SWE.
+ *
+ * @author Thomas Blocher (blocher@in.tum.de)
+ *
+ * @section LICENSE
+ *
+ * SWE is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * SWE is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with SWE.  If not, see <http://www.gnu.org/licenses/>.
+ *
+ *
+ * @section DESCRIPTION
+ *
+ * A writer for the netCDF-format: http://www.unidata.ucar.edu/software/netcdf/
+ */
+
+
+#include <string>
+#include <vector>
+#include <iostream>
+#include <cassert>
+#include <netcdf.h>
+#include <cstdlib>
+/**
+ * Create a netCdf-file
+ * Any existing file will be replaced.
+ *
+ * @param i_baseName base name of the netCDF-file to which the data will be written to.
+ * @param NumberOfBoyes contains the Number of Boyes Written in this File (if it is less 1 it's interpreted as Checkpoint to coninue)
+ */
+int main( int argc, char** argv )
+{
+
+    int status,dataFile,inputFile;
+    size_t pos = atoi(argv[2]);
+    
+    //create a netCDF-file, an existing file will be replaced
+    status = nc_create((std::string(argv[1])+std::string(argv[2])+".nc").c_str(), NC_NETCDF4, &dataFile);
+
+    //check if the netCDF-file creation constructor succeeded.
+    if (status != NC_NOERR) {
+        assert(false);
+        return -1;
+    }
+    nc_open((std::string(argv[1])+".nc").c_str(), NC_WRITE, &inputFile);
+
+    //dimensions
+    int l_timeDim, timeVar, hVar, xVar, yVar;
+    nc_def_dim(dataFile, "time", NC_UNLIMITED, &l_timeDim);
+    nc_def_var(dataFile, "time", NC_FLOAT, 1, &l_timeDim, &timeVar);
+
+    int dims[] = {l_timeDim};
+    nc_def_var(dataFile, "Data",  NC_FLOAT, 1, dims, &hVar);
+    nc_def_var(dataFile, "x", NC_FLOAT, 0, dims, &xVar);
+    nc_def_var(dataFile, "y",  NC_FLOAT, 0, dims, &yVar);
+    
+        
+    //get dim id
+    int In_timeDim, hIn, xIn, yIn, timeIn;
+    size_t timeStep;
+    nc_inq_dimid(inputFile, "time", &In_timeDim);
+    nc_inq_dimlen(inputFile, In_timeDim, &timeStep);
+    // get the variables IDs 
+    nc_inq_varid(inputFile, "Data",  &hIn);
+    nc_inq_varid(inputFile, "x", &xIn);
+    nc_inq_varid(inputFile, "y",  &yIn);
+    nc_inq_varid(inputFile, "time", &timeIn);
+
+    float x,y;
+    nc_get_var1_float(inputFile, xIn, &pos, &x);
+    nc_get_var1_float(inputFile, yIn, &pos, &y);
+    nc_put_var_float(dataFile, xVar, &x);
+    nc_put_var_float(dataFile, yVar, &y);
+    
+    for(size_t i = 0; i < timeStep; i++){
+        float time;
+        float height;
+        size_t posin[] ={i,pos};
+        nc_get_var1_float(inputFile, timeIn, &i, &time);
+        nc_get_var1_float(inputFile, hIn, posin, &height;
+
+        nc_put_var1_float(dataFile, timeVar, &i, &time);
+        nc_put_var1_float(dataFile, hVar, &i, &height);    
+    } 
+
+    
+}
+
+
+

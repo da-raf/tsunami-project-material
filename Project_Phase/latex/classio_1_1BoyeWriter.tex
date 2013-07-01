@@ -1,0 +1,77 @@
+\hypertarget{classio_1_1BoyeWriter}{\section{io\-:\-:Boye\-Writer Class Reference}
+\label{classio_1_1BoyeWriter}\index{io\-::\-Boye\-Writer@{io\-::\-Boye\-Writer}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classio_1_1BoyeWriter_a4f7cf890d556adc87d7c96cb21a2d664}{Boye\-Writer} (const std\-::string \&i\-\_\-file\-Name, int Number\-Of\-Boyes)
+\item 
+void \hyperlink{classio_1_1BoyeWriter_a1098a16015c750849c7c40e60c1cf592}{init\-Boye} (float x, float y, \hyperlink{classSWE__DimensionalSplitting}{S\-W\-E\-\_\-\-Dimensional\-Splitting} \&block)
+\item 
+void \hyperlink{classio_1_1BoyeWriter_a23ceb7008b917725f15f233cfa18b20d}{write\-Boye} (float time, const \hyperlink{classFloat2D}{Float2\-D} \&h, const \hyperlink{classFloat2D}{Float2\-D} \&b)
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classio_1_1BoyeWriter_a4f7cf890d556adc87d7c96cb21a2d664}{\index{io\-::\-Boye\-Writer@{io\-::\-Boye\-Writer}!Boye\-Writer@{Boye\-Writer}}
+\index{Boye\-Writer@{Boye\-Writer}!io::BoyeWriter@{io\-::\-Boye\-Writer}}
+\subsubsection[{Boye\-Writer}]{\setlength{\rightskip}{0pt plus 5cm}io\-::\-Boye\-Writer\-::\-Boye\-Writer (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{i\-\_\-base\-Name, }
+\item[{int}]{Number\-Of\-Boyes}
+\end{DoxyParamCaption}
+)}}\label{classio_1_1BoyeWriter_a4f7cf890d556adc87d7c96cb21a2d664}
+Create a net\-Cdf-\/file Any existing file will be replaced.
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\-\_\-base\-Name} & base name of the net\-C\-D\-F-\/file to which the data will be written to. \\
+\hline
+{\em Number\-Of\-Boyes} & contains the Number of Boyes Written in this File (if it is less 1 it's interpreted as Checkpoint to coninue) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classio_1_1BoyeWriter_a1098a16015c750849c7c40e60c1cf592}{\index{io\-::\-Boye\-Writer@{io\-::\-Boye\-Writer}!init\-Boye@{init\-Boye}}
+\index{init\-Boye@{init\-Boye}!io::BoyeWriter@{io\-::\-Boye\-Writer}}
+\subsubsection[{init\-Boye}]{\setlength{\rightskip}{0pt plus 5cm}void io\-::\-Boye\-Writer\-::init\-Boye (
+\begin{DoxyParamCaption}
+\item[{float}]{l\-\_\-x, }
+\item[{float}]{l\-\_\-y, }
+\item[{{\bf S\-W\-E\-\_\-\-Dimensional\-Splitting} \&}]{block}
+\end{DoxyParamCaption}
+)}}\label{classio_1_1BoyeWriter_a1098a16015c750849c7c40e60c1cf592}
+Initialize a Boye at given x and y position
+
+
+\begin{DoxyParams}{Parameters}
+{\em X-\/\-Position} & of Boye \\
+\hline
+{\em Y-\/position} & of boye \\
+\hline
+\end{DoxyParams}
+\hypertarget{classio_1_1BoyeWriter_a23ceb7008b917725f15f233cfa18b20d}{\index{io\-::\-Boye\-Writer@{io\-::\-Boye\-Writer}!write\-Boye@{write\-Boye}}
+\index{write\-Boye@{write\-Boye}!io::BoyeWriter@{io\-::\-Boye\-Writer}}
+\subsubsection[{write\-Boye}]{\setlength{\rightskip}{0pt plus 5cm}void io\-::\-Boye\-Writer\-::write\-Boye (
+\begin{DoxyParamCaption}
+\item[{float}]{time, }
+\item[{const {\bf Float2\-D} \&}]{h, }
+\item[{const {\bf Float2\-D} \&}]{b}
+\end{DoxyParamCaption}
+)}}\label{classio_1_1BoyeWriter_a23ceb7008b917725f15f233cfa18b20d}
+Write Boye\-Data write data of all initialized Boyes at given Time time 
+\begin{DoxyParams}{Parameters}
+{\em Time} & of Data \\
+\hline
+{\em Reference} & to Array containing Waterheight \\
+\hline
+{\em Reference} & to Array containing Bathymetry \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/src/writer/\hyperlink{BoyeWriter_8hh}{Boye\-Writer.\-hh}\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/src/writer/\hyperlink{BoyeWriter_8cpp}{Boye\-Writer.\-cpp}\end{DoxyCompactItemize}

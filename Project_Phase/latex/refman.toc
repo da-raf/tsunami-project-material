@@ -1,0 +1,720 @@
+\contentsline {chapter}{\numberline {1}S\discretionary {-}{}{}W\discretionary {-}{}{}E -\/ A Simple Shallow Water Code}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Shallow Water Equations}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Finite Volume Discretisation}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Computing Numerical Fluxes at Edges and Euler Time-\/\discretionary {-}{}{}Stepping}{2}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Implementation and base class S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block}{2}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Parallelisation and Different Models}{3}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Multiple Blocks}{3}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}}{5}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}}{5}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}}{5}{subsection.1.2.5}
+\contentsline {chapter}{\numberline {2}Todo List}{7}{chapter.2}
+\contentsline {chapter}{\numberline {3}Deprecated List}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Hierarchical Index}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Class Hierarchy}{11}{section.4.1}
+\contentsline {chapter}{\numberline {5}Class Index}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Class List}{13}{section.5.1}
+\contentsline {chapter}{\numberline {6}File Index}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}File List}{15}{section.6.1}
+\contentsline {chapter}{\numberline {7}Class Documentation}{17}{chapter.7}
+\contentsline {section}{\numberline {7.1}Camera Class Reference}{17}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Constructor \& Destructor Documentation}{17}{subsection.7.1.1}
+\contentsline {subsubsection}{\numberline {7.1.1.1}Camera}{17}{subsubsection.7.1.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Member Function Documentation}{17}{subsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.2.1}display\discretionary {-}{}{}Image}{17}{subsubsection.7.1.2.1}
+\contentsline {subsubsection}{\numberline {7.1.2.2}orient}{17}{subsubsection.7.1.2.2}
+\contentsline {subsubsection}{\numberline {7.1.2.3}panning}{18}{subsubsection.7.1.2.3}
+\contentsline {subsubsection}{\numberline {7.1.2.4}set\discretionary {-}{}{}Camera}{18}{subsubsection.7.1.2.4}
+\contentsline {subsubsection}{\numberline {7.1.2.5}start\discretionary {-}{}{}Panning}{18}{subsubsection.7.1.2.5}
+\contentsline {subsubsection}{\numberline {7.1.2.6}view\discretionary {-}{}{}Distance}{18}{subsubsection.7.1.2.6}
+\contentsline {subsubsection}{\numberline {7.1.2.7}zoom\discretionary {-}{}{}In}{18}{subsubsection.7.1.2.7}
+\contentsline {subsubsection}{\numberline {7.1.2.8}zoom\discretionary {-}{}{}Out}{18}{subsubsection.7.1.2.8}
+\contentsline {section}{\numberline {7.2}Controller Class Reference}{18}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Constructor \& Destructor Documentation}{19}{subsection.7.2.1}
+\contentsline {subsubsection}{\numberline {7.2.1.1}Controller}{19}{subsubsection.7.2.1.1}
+\contentsline {subsection}{\numberline {7.2.2}Member Function Documentation}{19}{subsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.1}handle\discretionary {-}{}{}Events}{19}{subsubsection.7.2.2.1}
+\contentsline {subsubsection}{\numberline {7.2.2.2}has\discretionary {-}{}{}Focus}{19}{subsubsection.7.2.2.2}
+\contentsline {subsubsection}{\numberline {7.2.2.3}is\discretionary {-}{}{}Paused}{19}{subsubsection.7.2.2.3}
+\contentsline {section}{\numberline {7.3}Dimensional\discretionary {-}{}{}Splitting\discretionary {-}{}{}Test Class Reference}{19}{section.7.3}
+\contentsline {section}{\numberline {7.4}Float1\discretionary {-}{}{}D Class Reference}{20}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Detailed Description}{20}{subsection.7.4.1}
+\contentsline {section}{\numberline {7.5}Float2\discretionary {-}{}{}D Class Reference}{20}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Detailed Description}{20}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Constructor \& Destructor Documentation}{21}{subsection.7.5.2}
+\contentsline {subsubsection}{\numberline {7.5.2.1}Float2\discretionary {-}{}{}D}{21}{subsubsection.7.5.2.1}
+\contentsline {section}{\numberline {7.6}F\discretionary {-}{}{}Wave\discretionary {-}{}{}Solver\discretionary {-}{}{}Test Class Reference}{21}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Detailed Description}{21}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Member Function Documentation}{21}{subsection.7.6.2}
+\contentsline {subsubsection}{\numberline {7.6.2.1}test\discretionary {-}{}{}Bathymetry}{21}{subsubsection.7.6.2.1}
+\contentsline {subsubsection}{\numberline {7.6.2.2}test\discretionary {-}{}{}Eigencoefficients}{21}{subsubsection.7.6.2.2}
+\contentsline {subsubsection}{\numberline {7.6.2.3}test\discretionary {-}{}{}Eigenvalues}{22}{subsubsection.7.6.2.3}
+\contentsline {subsubsection}{\numberline {7.6.2.4}test\discretionary {-}{}{}Flux}{22}{subsubsection.7.6.2.4}
+\contentsline {subsubsection}{\numberline {7.6.2.5}test\discretionary {-}{}{}Steady\discretionary {-}{}{}State}{22}{subsubsection.7.6.2.5}
+\contentsline {subsubsection}{\numberline {7.6.2.6}test\discretionary {-}{}{}Supersonic}{22}{subsubsection.7.6.2.6}
+\contentsline {section}{\numberline {7.7}io\discretionary {-}{}{}:\discretionary {-}{}{}:Boundary\discretionary {-}{}{}Size Struct Reference}{22}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Detailed Description}{22}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Member Data Documentation}{22}{subsection.7.7.2}
+\contentsline {subsubsection}{\numberline {7.7.2.1}boundary\discretionary {-}{}{}Size}{22}{subsubsection.7.7.2.1}
+\contentsline {section}{\numberline {7.8}io\discretionary {-}{}{}:\discretionary {-}{}{}:Boye\discretionary {-}{}{}Writer Class Reference}{23}{section.7.8}
+\contentsline {subsection}{\numberline {7.8.1}Constructor \& Destructor Documentation}{23}{subsection.7.8.1}
+\contentsline {subsubsection}{\numberline {7.8.1.1}Boye\discretionary {-}{}{}Writer}{23}{subsubsection.7.8.1.1}
+\contentsline {subsection}{\numberline {7.8.2}Member Function Documentation}{23}{subsection.7.8.2}
+\contentsline {subsubsection}{\numberline {7.8.2.1}init\discretionary {-}{}{}Boye}{23}{subsubsection.7.8.2.1}
+\contentsline {subsubsection}{\numberline {7.8.2.2}write\discretionary {-}{}{}Boye}{23}{subsubsection.7.8.2.2}
+\contentsline {section}{\numberline {7.9}io\discretionary {-}{}{}:\discretionary {-}{}{}:Net\discretionary {-}{}{}Cdf\discretionary {-}{}{}Writer Class Reference}{23}{section.7.9}
+\contentsline {subsection}{\numberline {7.9.1}Constructor \& Destructor Documentation}{24}{subsection.7.9.1}
+\contentsline {subsubsection}{\numberline {7.9.1.1}Net\discretionary {-}{}{}Cdf\discretionary {-}{}{}Writer}{24}{subsubsection.7.9.1.1}
+\contentsline {subsubsection}{\numberline {7.9.1.2}$\sim $\discretionary {-}{}{}Net\discretionary {-}{}{}Cdf\discretionary {-}{}{}Writer}{24}{subsubsection.7.9.1.2}
+\contentsline {subsection}{\numberline {7.9.2}Member Function Documentation}{24}{subsection.7.9.2}
+\contentsline {subsubsection}{\numberline {7.9.2.1}write\discretionary {-}{}{}Boundary}{25}{subsubsection.7.9.2.1}
+\contentsline {subsubsection}{\numberline {7.9.2.2}write\discretionary {-}{}{}Time\discretionary {-}{}{}Step}{25}{subsubsection.7.9.2.2}
+\contentsline {subsubsection}{\numberline {7.9.2.3}write\discretionary {-}{}{}Time\discretionary {-}{}{}Step}{25}{subsubsection.7.9.2.3}
+\contentsline {section}{\numberline {7.10}io\discretionary {-}{}{}:\discretionary {-}{}{}:Vtk\discretionary {-}{}{}Writer Class Reference}{26}{section.7.10}
+\contentsline {subsection}{\numberline {7.10.1}Constructor \& Destructor Documentation}{26}{subsection.7.10.1}
+\contentsline {subsubsection}{\numberline {7.10.1.1}Vtk\discretionary {-}{}{}Writer}{26}{subsubsection.7.10.1.1}
+\contentsline {subsection}{\numberline {7.10.2}Member Function Documentation}{26}{subsection.7.10.2}
+\contentsline {subsubsection}{\numberline {7.10.2.1}write\discretionary {-}{}{}Time\discretionary {-}{}{}Step}{26}{subsubsection.7.10.2.1}
+\contentsline {section}{\numberline {7.11}io\discretionary {-}{}{}:\discretionary {-}{}{}:Writer Class Reference}{27}{section.7.11}
+\contentsline {subsection}{\numberline {7.11.1}Constructor \& Destructor Documentation}{27}{subsection.7.11.1}
+\contentsline {subsubsection}{\numberline {7.11.1.1}Writer}{27}{subsubsection.7.11.1.1}
+\contentsline {subsection}{\numberline {7.11.2}Member Function Documentation}{27}{subsection.7.11.2}
+\contentsline {subsubsection}{\numberline {7.11.2.1}write\discretionary {-}{}{}Time\discretionary {-}{}{}Step}{27}{subsubsection.7.11.2.1}
+\contentsline {section}{\numberline {7.12}scenarios\discretionary {-}{}{}:\discretionary {-}{}{}:Constant\discretionary {-}{}{}Flow Class Reference}{28}{section.7.12}
+\contentsline {subsection}{\numberline {7.12.1}Member Function Documentation}{28}{subsection.7.12.1}
+\contentsline {subsubsection}{\numberline {7.12.1.1}get\discretionary {-}{}{}Bathymetry}{28}{subsubsection.7.12.1.1}
+\contentsline {subsubsection}{\numberline {7.12.1.2}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{28}{subsubsection.7.12.1.2}
+\contentsline {subsubsection}{\numberline {7.12.1.3}get\discretionary {-}{}{}Height}{28}{subsubsection.7.12.1.3}
+\contentsline {subsubsection}{\numberline {7.12.1.4}get\discretionary {-}{}{}Momentum}{28}{subsubsection.7.12.1.4}
+\contentsline {section}{\numberline {7.13}scenarios\discretionary {-}{}{}:\discretionary {-}{}{}:Dam\discretionary {-}{}{}Break Class Reference}{29}{section.7.13}
+\contentsline {subsection}{\numberline {7.13.1}Member Function Documentation}{29}{subsection.7.13.1}
+\contentsline {subsubsection}{\numberline {7.13.1.1}get\discretionary {-}{}{}Bathymetry}{29}{subsubsection.7.13.1.1}
+\contentsline {subsubsection}{\numberline {7.13.1.2}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{29}{subsubsection.7.13.1.2}
+\contentsline {subsubsection}{\numberline {7.13.1.3}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{29}{subsubsection.7.13.1.3}
+\contentsline {subsubsection}{\numberline {7.13.1.4}get\discretionary {-}{}{}Height}{29}{subsubsection.7.13.1.4}
+\contentsline {subsubsection}{\numberline {7.13.1.5}get\discretionary {-}{}{}Height}{29}{subsubsection.7.13.1.5}
+\contentsline {subsubsection}{\numberline {7.13.1.6}get\discretionary {-}{}{}Momentum}{29}{subsubsection.7.13.1.6}
+\contentsline {subsubsection}{\numberline {7.13.1.7}get\discretionary {-}{}{}Momentum}{30}{subsubsection.7.13.1.7}
+\contentsline {section}{\numberline {7.14}scenarios\discretionary {-}{}{}:\discretionary {-}{}{}:Eisbach Class Reference}{30}{section.7.14}
+\contentsline {subsection}{\numberline {7.14.1}Member Function Documentation}{30}{subsection.7.14.1}
+\contentsline {subsubsection}{\numberline {7.14.1.1}get\discretionary {-}{}{}Bathymetry}{30}{subsubsection.7.14.1.1}
+\contentsline {subsubsection}{\numberline {7.14.1.2}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{30}{subsubsection.7.14.1.2}
+\contentsline {subsubsection}{\numberline {7.14.1.3}get\discretionary {-}{}{}Height}{30}{subsubsection.7.14.1.3}
+\contentsline {subsubsection}{\numberline {7.14.1.4}get\discretionary {-}{}{}Momentum}{30}{subsubsection.7.14.1.4}
+\contentsline {section}{\numberline {7.15}scenarios\discretionary {-}{}{}:\discretionary {-}{}{}:Rare\discretionary {-}{}{}Rare Class Reference}{31}{section.7.15}
+\contentsline {subsection}{\numberline {7.15.1}Member Function Documentation}{31}{subsection.7.15.1}
+\contentsline {subsubsection}{\numberline {7.15.1.1}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{31}{subsubsection.7.15.1.1}
+\contentsline {subsubsection}{\numberline {7.15.1.2}get\discretionary {-}{}{}Height}{31}{subsubsection.7.15.1.2}
+\contentsline {subsubsection}{\numberline {7.15.1.3}get\discretionary {-}{}{}Momentum}{31}{subsubsection.7.15.1.3}
+\contentsline {section}{\numberline {7.16}scenarios\discretionary {-}{}{}:\discretionary {-}{}{}:Shock\discretionary {-}{}{}Shock Class Reference}{31}{section.7.16}
+\contentsline {subsection}{\numberline {7.16.1}Member Function Documentation}{31}{subsection.7.16.1}
+\contentsline {subsubsection}{\numberline {7.16.1.1}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{31}{subsubsection.7.16.1.1}
+\contentsline {subsubsection}{\numberline {7.16.1.2}get\discretionary {-}{}{}Height}{32}{subsubsection.7.16.1.2}
+\contentsline {subsubsection}{\numberline {7.16.1.3}get\discretionary {-}{}{}Momentum}{32}{subsubsection.7.16.1.3}
+\contentsline {section}{\numberline {7.17}scenarios\discretionary {-}{}{}:\discretionary {-}{}{}:Subcrit Class Reference}{32}{section.7.17}
+\contentsline {subsection}{\numberline {7.17.1}Member Function Documentation}{32}{subsection.7.17.1}
+\contentsline {subsubsection}{\numberline {7.17.1.1}get\discretionary {-}{}{}Bathymetry}{32}{subsubsection.7.17.1.1}
+\contentsline {subsubsection}{\numberline {7.17.1.2}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{32}{subsubsection.7.17.1.2}
+\contentsline {subsubsection}{\numberline {7.17.1.3}get\discretionary {-}{}{}Height}{32}{subsubsection.7.17.1.3}
+\contentsline {subsubsection}{\numberline {7.17.1.4}get\discretionary {-}{}{}Momentum}{32}{subsubsection.7.17.1.4}
+\contentsline {section}{\numberline {7.18}scenarios\discretionary {-}{}{}:\discretionary {-}{}{}:Supercrit Class Reference}{33}{section.7.18}
+\contentsline {subsection}{\numberline {7.18.1}Member Function Documentation}{33}{subsection.7.18.1}
+\contentsline {subsubsection}{\numberline {7.18.1.1}get\discretionary {-}{}{}Bathymetry}{33}{subsubsection.7.18.1.1}
+\contentsline {subsubsection}{\numberline {7.18.1.2}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{33}{subsubsection.7.18.1.2}
+\contentsline {subsubsection}{\numberline {7.18.1.3}get\discretionary {-}{}{}Height}{33}{subsubsection.7.18.1.3}
+\contentsline {subsubsection}{\numberline {7.18.1.4}get\discretionary {-}{}{}Momentum}{33}{subsubsection.7.18.1.4}
+\contentsline {section}{\numberline {7.19}Shader Class Reference}{33}{section.7.19}
+\contentsline {subsection}{\numberline {7.19.1}Constructor \& Destructor Documentation}{34}{subsection.7.19.1}
+\contentsline {subsubsection}{\numberline {7.19.1.1}Shader}{34}{subsubsection.7.19.1.1}
+\contentsline {subsubsection}{\numberline {7.19.1.2}$\sim $\discretionary {-}{}{}Shader}{34}{subsubsection.7.19.1.2}
+\contentsline {subsection}{\numberline {7.19.2}Member Function Documentation}{34}{subsection.7.19.2}
+\contentsline {subsubsection}{\numberline {7.19.2.1}disable\discretionary {-}{}{}Shader}{34}{subsubsection.7.19.2.1}
+\contentsline {subsubsection}{\numberline {7.19.2.2}enable\discretionary {-}{}{}Shader}{34}{subsubsection.7.19.2.2}
+\contentsline {subsubsection}{\numberline {7.19.2.3}get\discretionary {-}{}{}Uniform\discretionary {-}{}{}Location}{34}{subsubsection.7.19.2.3}
+\contentsline {subsubsection}{\numberline {7.19.2.4}set\discretionary {-}{}{}Uniform}{34}{subsubsection.7.19.2.4}
+\contentsline {subsubsection}{\numberline {7.19.2.5}shaders\discretionary {-}{}{}Loaded}{34}{subsubsection.7.19.2.5}
+\contentsline {section}{\numberline {7.20}Simulation Class Reference}{34}{section.7.20}
+\contentsline {subsection}{\numberline {7.20.1}Constructor \& Destructor Documentation}{35}{subsection.7.20.1}
+\contentsline {subsubsection}{\numberline {7.20.1.1}Simulation}{35}{subsubsection.7.20.1.1}
+\contentsline {subsubsection}{\numberline {7.20.1.2}$\sim $\discretionary {-}{}{}Simulation}{35}{subsubsection.7.20.1.2}
+\contentsline {subsection}{\numberline {7.20.2}Member Function Documentation}{35}{subsection.7.20.2}
+\contentsline {subsubsection}{\numberline {7.20.2.1}get\discretionary {-}{}{}Scaling\discretionary {-}{}{}Approximation}{35}{subsubsection.7.20.2.1}
+\contentsline {subsubsection}{\numberline {7.20.2.2}restart}{35}{subsubsection.7.20.2.2}
+\contentsline {subsubsection}{\numberline {7.20.2.3}run\discretionary {-}{}{}Cuda}{35}{subsubsection.7.20.2.3}
+\contentsline {subsubsection}{\numberline {7.20.2.4}set\discretionary {-}{}{}Bath\discretionary {-}{}{}Buffer}{35}{subsubsection.7.20.2.4}
+\contentsline {section}{\numberline {7.21}solver\discretionary {-}{}{}:\discretionary {-}{}{}:F\discretionary {-}{}{}Wave$<$ T $>$ Class Template Reference}{36}{section.7.21}
+\contentsline {subsection}{\numberline {7.21.1}Detailed Description}{36}{subsection.7.21.1}
+\contentsline {subsection}{\numberline {7.21.2}Member Function Documentation}{36}{subsection.7.21.2}
+\contentsline {subsubsection}{\numberline {7.21.2.1}compute\discretionary {-}{}{}Net\discretionary {-}{}{}Updates}{36}{subsubsection.7.21.2.1}
+\contentsline {section}{\numberline {7.22}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Artificial\discretionary {-}{}{}Tsunami\discretionary {-}{}{}Scenario Class Reference}{37}{section.7.22}
+\contentsline {section}{\numberline {7.23}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Asagi\discretionary {-}{}{}Grid Class Reference}{37}{section.7.23}
+\contentsline {section}{\numberline {7.24}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Asagi\discretionary {-}{}{}Japan\discretionary {-}{}{}Small\discretionary {-}{}{}Vis\discretionary {-}{}{}Info Class Reference}{37}{section.7.24}
+\contentsline {subsection}{\numberline {7.24.1}Member Function Documentation}{38}{subsection.7.24.1}
+\contentsline {subsubsection}{\numberline {7.24.1.1}bathy\discretionary {-}{}{}Vertical\discretionary {-}{}{}Scaling}{38}{subsubsection.7.24.1.1}
+\contentsline {subsubsection}{\numberline {7.24.1.2}water\discretionary {-}{}{}Vertical\discretionary {-}{}{}Scaling}{38}{subsubsection.7.24.1.2}
+\contentsline {section}{\numberline {7.25}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Asagi\discretionary {-}{}{}Scenario Class Reference}{38}{section.7.25}
+\contentsline {subsection}{\numberline {7.25.1}Constructor \& Destructor Documentation}{39}{subsection.7.25.1}
+\contentsline {subsubsection}{\numberline {7.25.1.1}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Asagi\discretionary {-}{}{}Scenario}{39}{subsubsection.7.25.1.1}
+\contentsline {subsection}{\numberline {7.25.2}Member Function Documentation}{39}{subsection.7.25.2}
+\contentsline {subsubsection}{\numberline {7.25.2.1}dynamic\discretionary {-}{}{}Displacement\discretionary {-}{}{}Available}{39}{subsubsection.7.25.2.1}
+\contentsline {subsubsection}{\numberline {7.25.2.2}end\discretionary {-}{}{}Simulation}{39}{subsubsection.7.25.2.2}
+\contentsline {subsubsection}{\numberline {7.25.2.3}get\discretionary {-}{}{}Bathymetry}{39}{subsubsection.7.25.2.3}
+\contentsline {subsubsection}{\numberline {7.25.2.4}get\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}And\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Displacement}{40}{subsubsection.7.25.2.4}
+\contentsline {subsubsection}{\numberline {7.25.2.5}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos}{40}{subsubsection.7.25.2.5}
+\contentsline {subsubsection}{\numberline {7.25.2.6}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Type}{40}{subsubsection.7.25.2.6}
+\contentsline {subsubsection}{\numberline {7.25.2.7}get\discretionary {-}{}{}Water\discretionary {-}{}{}Height}{40}{subsubsection.7.25.2.7}
+\contentsline {section}{\numberline {7.26}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}Dam\discretionary {-}{}{}Break\discretionary {-}{}{}Scenario Class Reference}{41}{section.7.26}
+\contentsline {subsection}{\numberline {7.26.1}Detailed Description}{41}{subsection.7.26.1}
+\contentsline {subsection}{\numberline {7.26.2}Member Function Documentation}{41}{subsection.7.26.2}
+\contentsline {subsubsection}{\numberline {7.26.2.1}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos}{41}{subsubsection.7.26.2.1}
+\contentsline {subsubsection}{\numberline {7.26.2.2}get\discretionary {-}{}{}Water\discretionary {-}{}{}Height}{42}{subsubsection.7.26.2.2}
+\contentsline {section}{\numberline {7.27}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}Dam\discretionary {-}{}{}Break\discretionary {-}{}{}Vis\discretionary {-}{}{}Info Class Reference}{42}{section.7.27}
+\contentsline {subsection}{\numberline {7.27.1}Detailed Description}{42}{subsection.7.27.1}
+\contentsline {subsection}{\numberline {7.27.2}Member Function Documentation}{42}{subsection.7.27.2}
+\contentsline {subsubsection}{\numberline {7.27.2.1}bathy\discretionary {-}{}{}Vertical\discretionary {-}{}{}Offset}{42}{subsubsection.7.27.2.1}
+\contentsline {section}{\numberline {7.28}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block Class Reference}{43}{section.7.28}
+\contentsline {subsection}{\numberline {7.28.1}Detailed Description}{45}{subsection.7.28.1}
+\contentsline {subsection}{\numberline {7.28.2}Constructor \& Destructor Documentation}{46}{subsection.7.28.2}
+\contentsline {subsubsection}{\numberline {7.28.2.1}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block}{46}{subsubsection.7.28.2.1}
+\contentsline {subsubsection}{\numberline {7.28.2.2}$\sim $\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block}{46}{subsubsection.7.28.2.2}
+\contentsline {subsection}{\numberline {7.28.3}Member Function Documentation}{46}{subsection.7.28.3}
+\contentsline {subsubsection}{\numberline {7.28.3.1}compute\discretionary {-}{}{}Max\discretionary {-}{}{}Timestep}{46}{subsubsection.7.28.3.1}
+\contentsline {subsubsection}{\numberline {7.28.3.2}compute\discretionary {-}{}{}Numerical\discretionary {-}{}{}Fluxes}{46}{subsubsection.7.28.3.2}
+\contentsline {subsubsection}{\numberline {7.28.3.3}get\discretionary {-}{}{}Bathymetry}{46}{subsubsection.7.28.3.3}
+\contentsline {subsubsection}{\numberline {7.28.3.4}get\discretionary {-}{}{}Discharge\discretionary {-}{}{}\_\discretionary {-}{}{}hu}{46}{subsubsection.7.28.3.4}
+\contentsline {subsubsection}{\numberline {7.28.3.5}get\discretionary {-}{}{}Discharge\discretionary {-}{}{}\_\discretionary {-}{}{}hv}{47}{subsubsection.7.28.3.5}
+\contentsline {subsubsection}{\numberline {7.28.3.6}get\discretionary {-}{}{}Max\discretionary {-}{}{}Timestep}{47}{subsubsection.7.28.3.6}
+\contentsline {subsubsection}{\numberline {7.28.3.7}get\discretionary {-}{}{}Water\discretionary {-}{}{}Height}{47}{subsubsection.7.28.3.7}
+\contentsline {subsubsection}{\numberline {7.28.3.8}grab\discretionary {-}{}{}Ghost\discretionary {-}{}{}Layer}{47}{subsubsection.7.28.3.8}
+\contentsline {subsubsection}{\numberline {7.28.3.9}init\discretionary {-}{}{}Scenario}{47}{subsubsection.7.28.3.9}
+\contentsline {subsubsection}{\numberline {7.28.3.10}register\discretionary {-}{}{}Copy\discretionary {-}{}{}Layer}{48}{subsubsection.7.28.3.10}
+\contentsline {subsubsection}{\numberline {7.28.3.11}set\discretionary {-}{}{}Bathymetry}{48}{subsubsection.7.28.3.11}
+\contentsline {subsubsection}{\numberline {7.28.3.12}set\discretionary {-}{}{}Bathymetry}{48}{subsubsection.7.28.3.12}
+\contentsline {subsubsection}{\numberline {7.28.3.13}set\discretionary {-}{}{}Boundary\discretionary {-}{}{}Bathymetry}{48}{subsubsection.7.28.3.13}
+\contentsline {subsubsection}{\numberline {7.28.3.14}set\discretionary {-}{}{}Boundary\discretionary {-}{}{}Conditions}{48}{subsubsection.7.28.3.14}
+\contentsline {subsubsection}{\numberline {7.28.3.15}set\discretionary {-}{}{}Boundary\discretionary {-}{}{}Type}{48}{subsubsection.7.28.3.15}
+\contentsline {subsubsection}{\numberline {7.28.3.16}set\discretionary {-}{}{}Discharge}{49}{subsubsection.7.28.3.16}
+\contentsline {subsubsection}{\numberline {7.28.3.17}set\discretionary {-}{}{}Ghost\discretionary {-}{}{}Layer}{49}{subsubsection.7.28.3.17}
+\contentsline {subsubsection}{\numberline {7.28.3.18}set\discretionary {-}{}{}Water\discretionary {-}{}{}Height}{49}{subsubsection.7.28.3.18}
+\contentsline {subsubsection}{\numberline {7.28.3.19}simulate}{49}{subsubsection.7.28.3.19}
+\contentsline {subsubsection}{\numberline {7.28.3.20}synch\discretionary {-}{}{}After\discretionary {-}{}{}Write}{49}{subsubsection.7.28.3.20}
+\contentsline {subsubsection}{\numberline {7.28.3.21}synch\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}After\discretionary {-}{}{}Write}{49}{subsubsection.7.28.3.21}
+\contentsline {subsubsection}{\numberline {7.28.3.22}synch\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{49}{subsubsection.7.28.3.22}
+\contentsline {subsubsection}{\numberline {7.28.3.23}synch\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{50}{subsubsection.7.28.3.23}
+\contentsline {subsubsection}{\numberline {7.28.3.24}synch\discretionary {-}{}{}Copy\discretionary {-}{}{}Layer\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{50}{subsubsection.7.28.3.24}
+\contentsline {subsubsection}{\numberline {7.28.3.25}synch\discretionary {-}{}{}Discharge\discretionary {-}{}{}After\discretionary {-}{}{}Write}{50}{subsubsection.7.28.3.25}
+\contentsline {subsubsection}{\numberline {7.28.3.26}synch\discretionary {-}{}{}Discharge\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{50}{subsubsection.7.28.3.26}
+\contentsline {subsubsection}{\numberline {7.28.3.27}synch\discretionary {-}{}{}Ghost\discretionary {-}{}{}Layer\discretionary {-}{}{}After\discretionary {-}{}{}Write}{50}{subsubsection.7.28.3.27}
+\contentsline {subsubsection}{\numberline {7.28.3.28}synch\discretionary {-}{}{}Water\discretionary {-}{}{}Height\discretionary {-}{}{}After\discretionary {-}{}{}Write}{50}{subsubsection.7.28.3.28}
+\contentsline {subsubsection}{\numberline {7.28.3.29}synch\discretionary {-}{}{}Water\discretionary {-}{}{}Height\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{50}{subsubsection.7.28.3.29}
+\contentsline {subsubsection}{\numberline {7.28.3.30}update\discretionary {-}{}{}Unknowns}{50}{subsubsection.7.28.3.30}
+\contentsline {subsection}{\numberline {7.28.4}Member Data Documentation}{51}{subsection.7.28.4}
+\contentsline {subsubsection}{\numberline {7.28.4.1}max\discretionary {-}{}{}Timestep}{51}{subsubsection.7.28.4.1}
+\contentsline {section}{\numberline {7.29}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block1\discretionary {-}{}{}D Struct Reference}{51}{section.7.29}
+\contentsline {subsection}{\numberline {7.29.1}Detailed Description}{51}{subsection.7.29.1}
+\contentsline {section}{\numberline {7.30}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A Class Reference}{52}{section.7.30}
+\contentsline {subsection}{\numberline {7.30.1}Detailed Description}{53}{subsection.7.30.1}
+\contentsline {subsection}{\numberline {7.30.2}Constructor \& Destructor Documentation}{53}{subsection.7.30.2}
+\contentsline {subsubsection}{\numberline {7.30.2.1}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A}{53}{subsubsection.7.30.2.1}
+\contentsline {subsubsection}{\numberline {7.30.2.2}$\sim $\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A}{53}{subsubsection.7.30.2.2}
+\contentsline {subsection}{\numberline {7.30.3}Member Function Documentation}{53}{subsection.7.30.3}
+\contentsline {subsubsection}{\numberline {7.30.3.1}finalize}{53}{subsubsection.7.30.3.1}
+\contentsline {subsubsection}{\numberline {7.30.3.2}get\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}\_\discretionary {-}{}{}bathymetry}{53}{subsubsection.7.30.3.2}
+\contentsline {subsubsection}{\numberline {7.30.3.3}get\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}\_\discretionary {-}{}{}water\discretionary {-}{}{}Height}{53}{subsubsection.7.30.3.3}
+\contentsline {subsubsection}{\numberline {7.30.3.4}grab\discretionary {-}{}{}Ghost\discretionary {-}{}{}Layer}{53}{subsubsection.7.30.3.4}
+\contentsline {subsubsection}{\numberline {7.30.3.5}init}{54}{subsubsection.7.30.3.5}
+\contentsline {subsubsection}{\numberline {7.30.3.6}print\discretionary {-}{}{}Device\discretionary {-}{}{}Information}{54}{subsubsection.7.30.3.6}
+\contentsline {subsubsection}{\numberline {7.30.3.7}register\discretionary {-}{}{}Copy\discretionary {-}{}{}Layer}{54}{subsubsection.7.30.3.7}
+\contentsline {subsubsection}{\numberline {7.30.3.8}set\discretionary {-}{}{}Boundary\discretionary {-}{}{}Conditions}{54}{subsubsection.7.30.3.8}
+\contentsline {subsubsection}{\numberline {7.30.3.9}synch\discretionary {-}{}{}After\discretionary {-}{}{}Write}{54}{subsubsection.7.30.3.9}
+\contentsline {subsubsection}{\numberline {7.30.3.10}synch\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}After\discretionary {-}{}{}Write}{54}{subsubsection.7.30.3.10}
+\contentsline {subsubsection}{\numberline {7.30.3.11}synch\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{55}{subsubsection.7.30.3.11}
+\contentsline {subsubsection}{\numberline {7.30.3.12}synch\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{55}{subsubsection.7.30.3.12}
+\contentsline {subsubsection}{\numberline {7.30.3.13}synch\discretionary {-}{}{}Copy\discretionary {-}{}{}Layer\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{55}{subsubsection.7.30.3.13}
+\contentsline {subsubsection}{\numberline {7.30.3.14}synch\discretionary {-}{}{}Discharge\discretionary {-}{}{}After\discretionary {-}{}{}Write}{55}{subsubsection.7.30.3.14}
+\contentsline {subsubsection}{\numberline {7.30.3.15}synch\discretionary {-}{}{}Discharge\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{55}{subsubsection.7.30.3.15}
+\contentsline {subsubsection}{\numberline {7.30.3.16}synch\discretionary {-}{}{}Ghost\discretionary {-}{}{}Layer\discretionary {-}{}{}After\discretionary {-}{}{}Write}{55}{subsubsection.7.30.3.16}
+\contentsline {subsubsection}{\numberline {7.30.3.17}synch\discretionary {-}{}{}Water\discretionary {-}{}{}Height\discretionary {-}{}{}After\discretionary {-}{}{}Write}{55}{subsubsection.7.30.3.17}
+\contentsline {subsubsection}{\numberline {7.30.3.18}synch\discretionary {-}{}{}Water\discretionary {-}{}{}Height\discretionary {-}{}{}Before\discretionary {-}{}{}Read}{55}{subsubsection.7.30.3.18}
+\contentsline {section}{\numberline {7.31}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Dam\discretionary {-}{}{}Break\discretionary {-}{}{}Scenario Class Reference}{56}{section.7.31}
+\contentsline {subsection}{\numberline {7.31.1}Member Function Documentation}{56}{subsection.7.31.1}
+\contentsline {subsubsection}{\numberline {7.31.1.1}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos}{56}{subsubsection.7.31.1.1}
+\contentsline {section}{\numberline {7.32}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Dimensional\discretionary {-}{}{}Splitting Class Reference}{56}{section.7.32}
+\contentsline {subsection}{\numberline {7.32.1}Member Function Documentation}{57}{subsection.7.32.1}
+\contentsline {subsubsection}{\numberline {7.32.1.1}compute\discretionary {-}{}{}Numerical\discretionary {-}{}{}Fluxes}{57}{subsubsection.7.32.1.1}
+\contentsline {subsubsection}{\numberline {7.32.1.2}get\discretionary {-}{}{}Xpos}{57}{subsubsection.7.32.1.2}
+\contentsline {subsubsection}{\numberline {7.32.1.3}get\discretionary {-}{}{}Ypos}{57}{subsubsection.7.32.1.3}
+\contentsline {subsubsection}{\numberline {7.32.1.4}run\discretionary {-}{}{}Timestep}{58}{subsubsection.7.32.1.4}
+\contentsline {subsubsection}{\numberline {7.32.1.5}run\discretionary {-}{}{}Timestep}{58}{subsubsection.7.32.1.5}
+\contentsline {subsubsection}{\numberline {7.32.1.6}simulate}{58}{subsubsection.7.32.1.6}
+\contentsline {subsubsection}{\numberline {7.32.1.7}simulate\discretionary {-}{}{}Timestep}{58}{subsubsection.7.32.1.7}
+\contentsline {subsubsection}{\numberline {7.32.1.8}update\discretionary {-}{}{}Bathymetry}{58}{subsubsection.7.32.1.8}
+\contentsline {subsubsection}{\numberline {7.32.1.9}update\discretionary {-}{}{}Unknowns}{58}{subsubsection.7.32.1.9}
+\contentsline {section}{\numberline {7.33}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Net\discretionary {-}{}{}C\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Checkpoint\discretionary {-}{}{}Scenario Class Reference}{59}{section.7.33}
+\contentsline {subsection}{\numberline {7.33.1}Constructor \& Destructor Documentation}{59}{subsection.7.33.1}
+\contentsline {subsubsection}{\numberline {7.33.1.1}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Net\discretionary {-}{}{}C\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Checkpoint\discretionary {-}{}{}Scenario}{59}{subsubsection.7.33.1.1}
+\contentsline {subsection}{\numberline {7.33.2}Member Function Documentation}{59}{subsection.7.33.2}
+\contentsline {subsubsection}{\numberline {7.33.2.1}end\discretionary {-}{}{}Simulation}{59}{subsubsection.7.33.2.1}
+\contentsline {subsubsection}{\numberline {7.33.2.2}get\discretionary {-}{}{}Bathymetry}{60}{subsubsection.7.33.2.2}
+\contentsline {subsubsection}{\numberline {7.33.2.3}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos}{60}{subsubsection.7.33.2.3}
+\contentsline {subsubsection}{\numberline {7.33.2.4}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Type}{60}{subsubsection.7.33.2.4}
+\contentsline {subsubsection}{\numberline {7.33.2.5}get\discretionary {-}{}{}Time}{60}{subsubsection.7.33.2.5}
+\contentsline {subsubsection}{\numberline {7.33.2.6}get\discretionary {-}{}{}Veloc\discretionary {-}{}{}\_\discretionary {-}{}{}u}{61}{subsubsection.7.33.2.6}
+\contentsline {subsubsection}{\numberline {7.33.2.7}get\discretionary {-}{}{}Veloc\discretionary {-}{}{}\_\discretionary {-}{}{}v}{61}{subsubsection.7.33.2.7}
+\contentsline {subsubsection}{\numberline {7.33.2.8}get\discretionary {-}{}{}Water\discretionary {-}{}{}Height}{61}{subsubsection.7.33.2.8}
+\contentsline {subsubsection}{\numberline {7.33.2.9}read\discretionary {-}{}{}Net\discretionary {-}{}{}C\discretionary {-}{}{}D\discretionary {-}{}{}F}{61}{subsubsection.7.33.2.9}
+\contentsline {section}{\numberline {7.34}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Net\discretionary {-}{}{}C\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Scenario Class Reference}{62}{section.7.34}
+\contentsline {section}{\numberline {7.35}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Radial\discretionary {-}{}{}Dam\discretionary {-}{}{}Break\discretionary {-}{}{}Scenario Class Reference}{62}{section.7.35}
+\contentsline {subsection}{\numberline {7.35.1}Detailed Description}{63}{subsection.7.35.1}
+\contentsline {subsection}{\numberline {7.35.2}Member Function Documentation}{63}{subsection.7.35.2}
+\contentsline {subsubsection}{\numberline {7.35.2.1}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos}{63}{subsubsection.7.35.2.1}
+\contentsline {section}{\numberline {7.36}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block Class Reference}{63}{section.7.36}
+\contentsline {subsection}{\numberline {7.36.1}Detailed Description}{64}{subsection.7.36.1}
+\contentsline {subsection}{\numberline {7.36.2}Constructor \& Destructor Documentation}{64}{subsection.7.36.2}
+\contentsline {subsubsection}{\numberline {7.36.2.1}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block}{64}{subsubsection.7.36.2.1}
+\contentsline {subsubsection}{\numberline {7.36.2.2}$\sim $\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block}{65}{subsubsection.7.36.2.2}
+\contentsline {subsection}{\numberline {7.36.3}Member Function Documentation}{65}{subsection.7.36.3}
+\contentsline {subsubsection}{\numberline {7.36.3.1}compute\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}Sources}{65}{subsubsection.7.36.3.1}
+\contentsline {subsubsection}{\numberline {7.36.3.2}compute\discretionary {-}{}{}Flux}{65}{subsubsection.7.36.3.2}
+\contentsline {subsubsection}{\numberline {7.36.3.3}compute\discretionary {-}{}{}Local\discretionary {-}{}{}S\discretionary {-}{}{}V}{65}{subsubsection.7.36.3.3}
+\contentsline {subsubsection}{\numberline {7.36.3.4}compute\discretionary {-}{}{}Numerical\discretionary {-}{}{}Fluxes}{65}{subsubsection.7.36.3.4}
+\contentsline {subsubsection}{\numberline {7.36.3.5}simulate}{65}{subsubsection.7.36.3.5}
+\contentsline {subsubsection}{\numberline {7.36.3.6}simulate\discretionary {-}{}{}Timestep}{65}{subsubsection.7.36.3.6}
+\contentsline {subsubsection}{\numberline {7.36.3.7}update\discretionary {-}{}{}Unknowns}{66}{subsubsection.7.36.3.7}
+\contentsline {subsection}{\numberline {7.36.4}Friends And Related Function Documentation}{66}{subsection.7.36.4}
+\contentsline {subsubsection}{\numberline {7.36.4.1}operator$<$$<$}{66}{subsubsection.7.36.4.1}
+\contentsline {section}{\numberline {7.37}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A Class Reference}{66}{section.7.37}
+\contentsline {subsection}{\numberline {7.37.1}Detailed Description}{67}{subsection.7.37.1}
+\contentsline {subsection}{\numberline {7.37.2}Constructor \& Destructor Documentation}{67}{subsection.7.37.2}
+\contentsline {subsubsection}{\numberline {7.37.2.1}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A}{67}{subsubsection.7.37.2.1}
+\contentsline {subsubsection}{\numberline {7.37.2.2}$\sim $\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A}{67}{subsubsection.7.37.2.2}
+\contentsline {subsection}{\numberline {7.37.3}Member Function Documentation}{67}{subsection.7.37.3}
+\contentsline {subsubsection}{\numberline {7.37.3.1}compute\discretionary {-}{}{}Numerical\discretionary {-}{}{}Fluxes}{67}{subsubsection.7.37.3.1}
+\contentsline {subsubsection}{\numberline {7.37.3.2}simulate}{67}{subsubsection.7.37.3.2}
+\contentsline {subsubsection}{\numberline {7.37.3.3}simulate\discretionary {-}{}{}Timestep}{68}{subsubsection.7.37.3.3}
+\contentsline {subsubsection}{\numberline {7.37.3.4}update\discretionary {-}{}{}Unknowns}{68}{subsubsection.7.37.3.4}
+\contentsline {subsection}{\numberline {7.37.4}Friends And Related Function Documentation}{68}{subsection.7.37.4}
+\contentsline {subsubsection}{\numberline {7.37.4.1}operator$<$$<$}{68}{subsubsection.7.37.4.1}
+\contentsline {section}{\numberline {7.38}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Scenario Class Reference}{68}{section.7.38}
+\contentsline {subsection}{\numberline {7.38.1}Detailed Description}{69}{subsection.7.38.1}
+\contentsline {section}{\numberline {7.39}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Sea\discretionary {-}{}{}At\discretionary {-}{}{}Rest\discretionary {-}{}{}Scenario Class Reference}{70}{section.7.39}
+\contentsline {subsection}{\numberline {7.39.1}Detailed Description}{70}{subsection.7.39.1}
+\contentsline {section}{\numberline {7.40}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Splashing\discretionary {-}{}{}Cone\discretionary {-}{}{}Scenario Class Reference}{70}{section.7.40}
+\contentsline {subsection}{\numberline {7.40.1}Detailed Description}{70}{subsection.7.40.1}
+\contentsline {section}{\numberline {7.41}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Splashing\discretionary {-}{}{}Pool\discretionary {-}{}{}Scenario Class Reference}{71}{section.7.41}
+\contentsline {subsection}{\numberline {7.41.1}Detailed Description}{71}{subsection.7.41.1}
+\contentsline {subsection}{\numberline {7.41.2}Member Function Documentation}{71}{subsection.7.41.2}
+\contentsline {subsubsection}{\numberline {7.41.2.1}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos}{71}{subsubsection.7.41.2.1}
+\contentsline {section}{\numberline {7.42}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Testing\discretionary {-}{}{}Scenario Class Reference}{71}{section.7.42}
+\contentsline {subsection}{\numberline {7.42.1}Member Function Documentation}{72}{subsection.7.42.1}
+\contentsline {subsubsection}{\numberline {7.42.1.1}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos}{72}{subsubsection.7.42.1.1}
+\contentsline {section}{\numberline {7.43}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Tsunami\discretionary {-}{}{}Scenario Class Reference}{72}{section.7.43}
+\contentsline {subsection}{\numberline {7.43.1}Member Function Documentation}{73}{subsection.7.43.1}
+\contentsline {subsubsection}{\numberline {7.43.1.1}get\discretionary {-}{}{}Bathymetry}{73}{subsubsection.7.43.1.1}
+\contentsline {subsubsection}{\numberline {7.43.1.2}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos}{73}{subsubsection.7.43.1.2}
+\contentsline {subsubsection}{\numberline {7.43.1.3}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Pos\discretionary {-}{}{}Displ}{73}{subsubsection.7.43.1.3}
+\contentsline {subsubsection}{\numberline {7.43.1.4}get\discretionary {-}{}{}Boundary\discretionary {-}{}{}Type}{74}{subsubsection.7.43.1.4}
+\contentsline {subsubsection}{\numberline {7.43.1.5}get\discretionary {-}{}{}Dynamic\discretionary {-}{}{}Bathymetry}{74}{subsubsection.7.43.1.5}
+\contentsline {subsubsection}{\numberline {7.43.1.6}get\discretionary {-}{}{}Eruption\discretionary {-}{}{}Duration}{74}{subsubsection.7.43.1.6}
+\contentsline {subsubsection}{\numberline {7.43.1.7}get\discretionary {-}{}{}Eruption\discretionary {-}{}{}Resolution}{74}{subsubsection.7.43.1.7}
+\contentsline {subsubsection}{\numberline {7.43.1.8}get\discretionary {-}{}{}Water\discretionary {-}{}{}Height}{74}{subsubsection.7.43.1.8}
+\contentsline {subsubsection}{\numberline {7.43.1.9}read\discretionary {-}{}{}Net\discretionary {-}{}{}C\discretionary {-}{}{}D\discretionary {-}{}{}F}{75}{subsubsection.7.43.1.9}
+\contentsline {subsection}{\numberline {7.43.2}Member Data Documentation}{75}{subsection.7.43.2}
+\contentsline {subsubsection}{\numberline {7.43.2.1}bath\discretionary {-}{}{}\_\discretionary {-}{}{}min\discretionary {-}{}{}\_\discretionary {-}{}{}zero\discretionary {-}{}{}\_\discretionary {-}{}{}offset}{75}{subsubsection.7.43.2.1}
+\contentsline {section}{\numberline {7.44}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Tsunami\discretionary {-}{}{}Scenario\discretionary {-}{}{}Test Class Reference}{75}{section.7.44}
+\contentsline {section}{\numberline {7.45}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Vis\discretionary {-}{}{}Info Class Reference}{76}{section.7.45}
+\contentsline {subsection}{\numberline {7.45.1}Detailed Description}{76}{subsection.7.45.1}
+\contentsline {subsection}{\numberline {7.45.2}Constructor \& Destructor Documentation}{76}{subsection.7.45.2}
+\contentsline {subsubsection}{\numberline {7.45.2.1}$\sim $\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Vis\discretionary {-}{}{}Info}{76}{subsubsection.7.45.2.1}
+\contentsline {subsection}{\numberline {7.45.3}Member Function Documentation}{76}{subsection.7.45.3}
+\contentsline {subsubsection}{\numberline {7.45.3.1}bathy\discretionary {-}{}{}Vertical\discretionary {-}{}{}Offset}{76}{subsubsection.7.45.3.1}
+\contentsline {subsubsection}{\numberline {7.45.3.2}bathy\discretionary {-}{}{}Vertical\discretionary {-}{}{}Scaling}{77}{subsubsection.7.45.3.2}
+\contentsline {subsubsection}{\numberline {7.45.3.3}water\discretionary {-}{}{}Vertical\discretionary {-}{}{}Scaling}{77}{subsubsection.7.45.3.3}
+\contentsline {section}{\numberline {7.46}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block Class Reference}{77}{section.7.46}
+\contentsline {subsection}{\numberline {7.46.1}Detailed Description}{77}{subsection.7.46.1}
+\contentsline {subsection}{\numberline {7.46.2}Constructor \& Destructor Documentation}{78}{subsection.7.46.2}
+\contentsline {subsubsection}{\numberline {7.46.2.1}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block}{78}{subsubsection.7.46.2.1}
+\contentsline {subsubsection}{\numberline {7.46.2.2}$\sim $\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block}{78}{subsubsection.7.46.2.2}
+\contentsline {subsection}{\numberline {7.46.3}Member Function Documentation}{78}{subsection.7.46.3}
+\contentsline {subsubsection}{\numberline {7.46.3.1}compute\discretionary {-}{}{}Numerical\discretionary {-}{}{}Fluxes}{78}{subsubsection.7.46.3.1}
+\contentsline {subsubsection}{\numberline {7.46.3.2}simulate}{79}{subsubsection.7.46.3.2}
+\contentsline {subsubsection}{\numberline {7.46.3.3}simulate\discretionary {-}{}{}Timestep}{79}{subsubsection.7.46.3.3}
+\contentsline {subsubsection}{\numberline {7.46.3.4}update\discretionary {-}{}{}Unknowns}{79}{subsubsection.7.46.3.4}
+\contentsline {section}{\numberline {7.47}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block\discretionary {-}{}{}Cuda Class Reference}{79}{section.7.47}
+\contentsline {subsection}{\numberline {7.47.1}Detailed Description}{80}{subsection.7.47.1}
+\contentsline {subsection}{\numberline {7.47.2}Constructor \& Destructor Documentation}{80}{subsection.7.47.2}
+\contentsline {subsubsection}{\numberline {7.47.2.1}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block\discretionary {-}{}{}Cuda}{80}{subsubsection.7.47.2.1}
+\contentsline {subsubsection}{\numberline {7.47.2.2}$\sim $\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block\discretionary {-}{}{}Cuda}{81}{subsubsection.7.47.2.2}
+\contentsline {subsection}{\numberline {7.47.3}Member Function Documentation}{81}{subsection.7.47.3}
+\contentsline {subsubsection}{\numberline {7.47.3.1}compute\discretionary {-}{}{}Numerical\discretionary {-}{}{}Fluxes}{81}{subsubsection.7.47.3.1}
+\contentsline {subsubsection}{\numberline {7.47.3.2}simulate}{82}{subsubsection.7.47.3.2}
+\contentsline {subsubsection}{\numberline {7.47.3.3}simulate\discretionary {-}{}{}Timestep}{82}{subsubsection.7.47.3.3}
+\contentsline {subsubsection}{\numberline {7.47.3.4}update\discretionary {-}{}{}Unknowns}{82}{subsubsection.7.47.3.4}
+\contentsline {section}{\numberline {7.48}Text Class Reference}{83}{section.7.48}
+\contentsline {subsection}{\numberline {7.48.1}Member Function Documentation}{83}{subsection.7.48.1}
+\contentsline {subsubsection}{\numberline {7.48.1.1}show\discretionary {-}{}{}Next\discretionary {-}{}{}Text}{83}{subsubsection.7.48.1.1}
+\contentsline {section}{\numberline {7.49}tools\discretionary {-}{}{}:\discretionary {-}{}{}:Args Class Reference}{83}{section.7.49}
+\contentsline {subsection}{\numberline {7.49.1}Detailed Description}{83}{subsection.7.49.1}
+\contentsline {section}{\numberline {7.50}tools\discretionary {-}{}{}:\discretionary {-}{}{}:Logger Class Reference}{83}{section.7.50}
+\contentsline {subsection}{\numberline {7.50.1}Constructor \& Destructor Documentation}{85}{subsection.7.50.1}
+\contentsline {subsubsection}{\numberline {7.50.1.1}Logger}{85}{subsubsection.7.50.1.1}
+\contentsline {subsubsection}{\numberline {7.50.1.2}$\sim $\discretionary {-}{}{}Logger}{85}{subsubsection.7.50.1.2}
+\contentsline {subsection}{\numberline {7.50.2}Member Function Documentation}{85}{subsection.7.50.2}
+\contentsline {subsubsection}{\numberline {7.50.2.1}cout}{85}{subsubsection.7.50.2.1}
+\contentsline {subsubsection}{\numberline {7.50.2.2}init\discretionary {-}{}{}Wall\discretionary {-}{}{}Clock\discretionary {-}{}{}Time}{85}{subsubsection.7.50.2.2}
+\contentsline {subsubsection}{\numberline {7.50.2.3}operator$<$$<$}{86}{subsubsection.7.50.2.3}
+\contentsline {subsubsection}{\numberline {7.50.2.4}operator$<$$<$}{86}{subsubsection.7.50.2.4}
+\contentsline {subsubsection}{\numberline {7.50.2.5}print\discretionary {-}{}{}Cell\discretionary {-}{}{}Size}{86}{subsubsection.7.50.2.5}
+\contentsline {subsubsection}{\numberline {7.50.2.6}print\discretionary {-}{}{}Cpu\discretionary {-}{}{}Communication\discretionary {-}{}{}Time}{86}{subsubsection.7.50.2.6}
+\contentsline {subsubsection}{\numberline {7.50.2.7}print\discretionary {-}{}{}Cpu\discretionary {-}{}{}Time}{86}{subsubsection.7.50.2.7}
+\contentsline {subsubsection}{\numberline {7.50.2.8}print\discretionary {-}{}{}Finish\discretionary {-}{}{}Message}{86}{subsubsection.7.50.2.8}
+\contentsline {subsubsection}{\numberline {7.50.2.9}print\discretionary {-}{}{}Iterations\discretionary {-}{}{}Done}{86}{subsubsection.7.50.2.9}
+\contentsline {subsubsection}{\numberline {7.50.2.10}print\discretionary {-}{}{}Number\discretionary {-}{}{}Of\discretionary {-}{}{}Blocks}{87}{subsubsection.7.50.2.10}
+\contentsline {subsubsection}{\numberline {7.50.2.11}print\discretionary {-}{}{}Number\discretionary {-}{}{}Of\discretionary {-}{}{}Cells}{87}{subsubsection.7.50.2.11}
+\contentsline {subsubsection}{\numberline {7.50.2.12}print\discretionary {-}{}{}Number\discretionary {-}{}{}Of\discretionary {-}{}{}Cells\discretionary {-}{}{}Per\discretionary {-}{}{}Process}{87}{subsubsection.7.50.2.12}
+\contentsline {subsubsection}{\numberline {7.50.2.13}print\discretionary {-}{}{}Number\discretionary {-}{}{}Of\discretionary {-}{}{}Processes}{87}{subsubsection.7.50.2.13}
+\contentsline {subsubsection}{\numberline {7.50.2.14}print\discretionary {-}{}{}Output\discretionary {-}{}{}File\discretionary {-}{}{}Creation}{87}{subsubsection.7.50.2.14}
+\contentsline {subsubsection}{\numberline {7.50.2.15}print\discretionary {-}{}{}Output\discretionary {-}{}{}Time}{88}{subsubsection.7.50.2.15}
+\contentsline {subsubsection}{\numberline {7.50.2.16}print\discretionary {-}{}{}Simulation\discretionary {-}{}{}Time}{88}{subsubsection.7.50.2.16}
+\contentsline {subsubsection}{\numberline {7.50.2.17}print\discretionary {-}{}{}Solver\discretionary {-}{}{}Statistics}{88}{subsubsection.7.50.2.17}
+\contentsline {subsubsection}{\numberline {7.50.2.18}print\discretionary {-}{}{}Start\discretionary {-}{}{}Message}{88}{subsubsection.7.50.2.18}
+\contentsline {subsubsection}{\numberline {7.50.2.19}print\discretionary {-}{}{}Statistics\discretionary {-}{}{}Message}{89}{subsubsection.7.50.2.19}
+\contentsline {subsubsection}{\numberline {7.50.2.20}print\discretionary {-}{}{}String}{89}{subsubsection.7.50.2.20}
+\contentsline {subsubsection}{\numberline {7.50.2.21}print\discretionary {-}{}{}Wall\discretionary {-}{}{}Clock\discretionary {-}{}{}Time}{89}{subsubsection.7.50.2.21}
+\contentsline {subsubsection}{\numberline {7.50.2.22}print\discretionary {-}{}{}Welcome\discretionary {-}{}{}Message}{89}{subsubsection.7.50.2.22}
+\contentsline {subsubsection}{\numberline {7.50.2.23}set\discretionary {-}{}{}Process\discretionary {-}{}{}Rank}{89}{subsubsection.7.50.2.23}
+\contentsline {subsubsection}{\numberline {7.50.2.24}update\discretionary {-}{}{}Cpu\discretionary {-}{}{}Communication\discretionary {-}{}{}Time}{89}{subsubsection.7.50.2.24}
+\contentsline {subsubsection}{\numberline {7.50.2.25}update\discretionary {-}{}{}Cpu\discretionary {-}{}{}Time}{89}{subsubsection.7.50.2.25}
+\contentsline {subsection}{\numberline {7.50.3}Member Data Documentation}{89}{subsection.7.50.3}
+\contentsline {subsubsection}{\numberline {7.50.3.1}logger}{90}{subsubsection.7.50.3.1}
+\contentsline {section}{\numberline {7.51}tools\discretionary {-}{}{}:\discretionary {-}{}{}:Progress\discretionary {-}{}{}Bar Class Reference}{90}{section.7.51}
+\contentsline {subsection}{\numberline {7.51.1}Member Function Documentation}{90}{subsection.7.51.1}
+\contentsline {subsubsection}{\numberline {7.51.1.1}update}{90}{subsubsection.7.51.1.1}
+\contentsline {section}{\numberline {7.52}V\discretionary {-}{}{}B\discretionary {-}{}{}O Class Reference}{90}{section.7.52}
+\contentsline {subsection}{\numberline {7.52.1}Member Function Documentation}{90}{subsection.7.52.1}
+\contentsline {subsubsection}{\numberline {7.52.1.1}finialize}{90}{subsubsection.7.52.1.1}
+\contentsline {subsubsection}{\numberline {7.52.1.2}get\discretionary {-}{}{}Name}{90}{subsubsection.7.52.1.2}
+\contentsline {subsubsection}{\numberline {7.52.1.3}init}{91}{subsubsection.7.52.1.3}
+\contentsline {section}{\numberline {7.53}Visualization Class Reference}{91}{section.7.53}
+\contentsline {subsection}{\numberline {7.53.1}Constructor \& Destructor Documentation}{91}{subsection.7.53.1}
+\contentsline {subsubsection}{\numberline {7.53.1.1}Visualization}{91}{subsubsection.7.53.1.1}
+\contentsline {subsubsection}{\numberline {7.53.1.2}$\sim $\discretionary {-}{}{}Visualization}{91}{subsubsection.7.53.1.2}
+\contentsline {subsection}{\numberline {7.53.2}Member Function Documentation}{92}{subsection.7.53.2}
+\contentsline {subsubsection}{\numberline {7.53.2.1}clean\discretionary {-}{}{}Up}{92}{subsubsection.7.53.2.1}
+\contentsline {subsubsection}{\numberline {7.53.2.2}get\discretionary {-}{}{}Cuda\discretionary {-}{}{}Normals\discretionary {-}{}{}Ptr}{92}{subsubsection.7.53.2.2}
+\contentsline {subsubsection}{\numberline {7.53.2.3}get\discretionary {-}{}{}Cuda\discretionary {-}{}{}Water\discretionary {-}{}{}Surface\discretionary {-}{}{}Ptr}{92}{subsubsection.7.53.2.3}
+\contentsline {subsubsection}{\numberline {7.53.2.4}init}{92}{subsubsection.7.53.2.4}
+\contentsline {subsubsection}{\numberline {7.53.2.5}is\discretionary {-}{}{}Extension\discretionary {-}{}{}Supported}{92}{subsubsection.7.53.2.5}
+\contentsline {subsubsection}{\numberline {7.53.2.6}render\discretionary {-}{}{}Display}{92}{subsubsection.7.53.2.6}
+\contentsline {subsubsection}{\numberline {7.53.2.7}resize\discretionary {-}{}{}Window}{92}{subsubsection.7.53.2.7}
+\contentsline {subsubsection}{\numberline {7.53.2.8}set\discretionary {-}{}{}Rendering\discretionary {-}{}{}Mode}{92}{subsubsection.7.53.2.8}
+\contentsline {subsubsection}{\numberline {7.53.2.9}toggle\discretionary {-}{}{}Rendering\discretionary {-}{}{}Mode}{93}{subsubsection.7.53.2.9}
+\contentsline {section}{\numberline {7.54}Wave\discretionary {-}{}{}Propagation Class Reference}{93}{section.7.54}
+\contentsline {subsection}{\numberline {7.54.1}Detailed Description}{93}{subsection.7.54.1}
+\contentsline {subsection}{\numberline {7.54.2}Constructor \& Destructor Documentation}{94}{subsection.7.54.2}
+\contentsline {subsubsection}{\numberline {7.54.2.1}Wave\discretionary {-}{}{}Propagation}{94}{subsubsection.7.54.2.1}
+\contentsline {subsection}{\numberline {7.54.3}Member Function Documentation}{94}{subsection.7.54.3}
+\contentsline {subsubsection}{\numberline {7.54.3.1}compute\discretionary {-}{}{}Numerical\discretionary {-}{}{}Fluxes}{94}{subsubsection.7.54.3.1}
+\contentsline {subsubsection}{\numberline {7.54.3.2}set\discretionary {-}{}{}Outflow\discretionary {-}{}{}Boundary\discretionary {-}{}{}Conditions}{94}{subsubsection.7.54.3.2}
+\contentsline {subsubsection}{\numberline {7.54.3.3}update\discretionary {-}{}{}Unknowns}{94}{subsubsection.7.54.3.3}
+\contentsline {section}{\numberline {7.55}writer\discretionary {-}{}{}:\discretionary {-}{}{}:Console\discretionary {-}{}{}Writer Class Reference}{94}{section.7.55}
+\contentsline {subsection}{\numberline {7.55.1}Detailed Description}{95}{subsection.7.55.1}
+\contentsline {subsection}{\numberline {7.55.2}Member Function Documentation}{95}{subsection.7.55.2}
+\contentsline {subsubsection}{\numberline {7.55.2.1}write}{95}{subsubsection.7.55.2.1}
+\contentsline {section}{\numberline {7.56}writer\discretionary {-}{}{}:\discretionary {-}{}{}:Vtk\discretionary {-}{}{}Writer Class Reference}{95}{section.7.56}
+\contentsline {subsection}{\numberline {7.56.1}Detailed Description}{95}{subsection.7.56.1}
+\contentsline {subsection}{\numberline {7.56.2}Member Function Documentation}{95}{subsection.7.56.2}
+\contentsline {subsubsection}{\numberline {7.56.2.1}write}{95}{subsubsection.7.56.2.1}
+\contentsline {chapter}{\numberline {8}File Documentation}{97}{chapter.8}
+\contentsline {section}{\numberline {8.1}mainpage.\discretionary {-}{}{}txt File Reference}{97}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Detailed Description}{97}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{97}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{97}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/cuda/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A.cu File Reference}{97}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{98}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{98}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{98}{subsection.8.2.3}
+\contentsline {section}{\numberline {8.3}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/cuda/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A.hh File Reference}{98}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Detailed Description}{99}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{99}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{99}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Function Documentation}{99}{subsection.8.3.4}
+\contentsline {subsubsection}{\numberline {8.3.4.1}get\discretionary {-}{}{}Bathy\discretionary {-}{}{}Coord}{99}{subsubsection.8.3.4.1}
+\contentsline {subsubsection}{\numberline {8.3.4.2}get\discretionary {-}{}{}Cell\discretionary {-}{}{}Coord}{99}{subsubsection.8.3.4.2}
+\contentsline {subsubsection}{\numberline {8.3.4.3}get\discretionary {-}{}{}Edge\discretionary {-}{}{}Coord}{99}{subsubsection.8.3.4.3}
+\contentsline {section}{\numberline {8.4}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/cuda/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}\_\discretionary {-}{}{}kernels.cu File Reference}{100}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Detailed Description}{100}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{100}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{100}{subsection.8.4.3}
+\contentsline {subsection}{\numberline {8.4.4}Function Documentation}{101}{subsection.8.4.4}
+\contentsline {subsubsection}{\numberline {8.4.4.1}kernel\discretionary {-}{}{}Bottom\discretionary {-}{}{}Boundary}{101}{subsubsection.8.4.4.1}
+\contentsline {subsubsection}{\numberline {8.4.4.2}kernel\discretionary {-}{}{}Bottom\discretionary {-}{}{}Copy\discretionary {-}{}{}Layer}{101}{subsubsection.8.4.4.2}
+\contentsline {subsubsection}{\numberline {8.4.4.3}kernel\discretionary {-}{}{}Bottom\discretionary {-}{}{}Ghost\discretionary {-}{}{}Boundary}{101}{subsubsection.8.4.4.3}
+\contentsline {subsubsection}{\numberline {8.4.4.4}kernel\discretionary {-}{}{}Hd\discretionary {-}{}{}Buffer\discretionary {-}{}{}Edges}{101}{subsubsection.8.4.4.4}
+\contentsline {subsubsection}{\numberline {8.4.4.5}kernel\discretionary {-}{}{}Left\discretionary {-}{}{}Boundary}{101}{subsubsection.8.4.4.5}
+\contentsline {subsubsection}{\numberline {8.4.4.6}kernel\discretionary {-}{}{}Right\discretionary {-}{}{}Boundary}{101}{subsubsection.8.4.4.6}
+\contentsline {subsubsection}{\numberline {8.4.4.7}kernel\discretionary {-}{}{}Top\discretionary {-}{}{}Boundary}{101}{subsubsection.8.4.4.7}
+\contentsline {subsubsection}{\numberline {8.4.4.8}kernel\discretionary {-}{}{}Top\discretionary {-}{}{}Copy\discretionary {-}{}{}Layer}{101}{subsubsection.8.4.4.8}
+\contentsline {subsubsection}{\numberline {8.4.4.9}kernel\discretionary {-}{}{}Top\discretionary {-}{}{}Ghost\discretionary {-}{}{}Boundary}{102}{subsubsection.8.4.4.9}
+\contentsline {section}{\numberline {8.5}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/cuda/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}\_\discretionary {-}{}{}kernels.hh File Reference}{102}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Detailed Description}{102}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{102}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{102}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Function Documentation}{103}{subsection.8.5.4}
+\contentsline {subsubsection}{\numberline {8.5.4.1}kernel\discretionary {-}{}{}Bottom\discretionary {-}{}{}Boundary}{103}{subsubsection.8.5.4.1}
+\contentsline {subsubsection}{\numberline {8.5.4.2}kernel\discretionary {-}{}{}Bottom\discretionary {-}{}{}Copy\discretionary {-}{}{}Layer}{103}{subsubsection.8.5.4.2}
+\contentsline {subsubsection}{\numberline {8.5.4.3}kernel\discretionary {-}{}{}Bottom\discretionary {-}{}{}Ghost\discretionary {-}{}{}Boundary}{103}{subsubsection.8.5.4.3}
+\contentsline {subsubsection}{\numberline {8.5.4.4}kernel\discretionary {-}{}{}Hd\discretionary {-}{}{}Buffer\discretionary {-}{}{}Edges}{103}{subsubsection.8.5.4.4}
+\contentsline {subsubsection}{\numberline {8.5.4.5}kernel\discretionary {-}{}{}Left\discretionary {-}{}{}Boundary}{103}{subsubsection.8.5.4.5}
+\contentsline {subsubsection}{\numberline {8.5.4.6}kernel\discretionary {-}{}{}Maximum}{103}{subsubsection.8.5.4.6}
+\contentsline {subsubsection}{\numberline {8.5.4.7}kernel\discretionary {-}{}{}Right\discretionary {-}{}{}Boundary}{103}{subsubsection.8.5.4.7}
+\contentsline {subsubsection}{\numberline {8.5.4.8}kernel\discretionary {-}{}{}Top\discretionary {-}{}{}Boundary}{103}{subsubsection.8.5.4.8}
+\contentsline {subsubsection}{\numberline {8.5.4.9}kernel\discretionary {-}{}{}Top\discretionary {-}{}{}Copy\discretionary {-}{}{}Layer}{103}{subsubsection.8.5.4.9}
+\contentsline {subsubsection}{\numberline {8.5.4.10}kernel\discretionary {-}{}{}Top\discretionary {-}{}{}Ghost\discretionary {-}{}{}Boundary}{104}{subsubsection.8.5.4.10}
+\contentsline {section}{\numberline {8.6}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/cuda/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block\discretionary {-}{}{}Cuda.cu File Reference}{104}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Detailed Description}{104}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{104}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{104}{subsection.8.6.3}
+\contentsline {section}{\numberline {8.7}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/cuda/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block\discretionary {-}{}{}Cuda.hh File Reference}{105}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Detailed Description}{105}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{105}{subsection.8.7.2}
+\contentsline {subsection}{\numberline {8.7.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{105}{subsection.8.7.3}
+\contentsline {section}{\numberline {8.8}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/cuda/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block\discretionary {-}{}{}Cuda\discretionary {-}{}{}\_\discretionary {-}{}{}kernels.cu File Reference}{105}{section.8.8}
+\contentsline {subsection}{\numberline {8.8.1}Detailed Description}{106}{subsection.8.8.1}
+\contentsline {subsection}{\numberline {8.8.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{106}{subsection.8.8.2}
+\contentsline {subsection}{\numberline {8.8.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{106}{subsection.8.8.3}
+\contentsline {subsection}{\numberline {8.8.4}Function Documentation}{106}{subsection.8.8.4}
+\contentsline {subsubsection}{\numberline {8.8.4.1}compute\discretionary {-}{}{}Net\discretionary {-}{}{}Updates\discretionary {-}{}{}Kernel}{106}{subsubsection.8.8.4.1}
+\contentsline {subsubsection}{\numberline {8.8.4.2}compute\discretionary {-}{}{}One\discretionary {-}{}{}D\discretionary {-}{}{}Position\discretionary {-}{}{}Kernel}{108}{subsubsection.8.8.4.2}
+\contentsline {subsubsection}{\numberline {8.8.4.3}update\discretionary {-}{}{}Unknowns\discretionary {-}{}{}Kernel}{108}{subsubsection.8.8.4.3}
+\contentsline {section}{\numberline {8.9}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/cuda/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block\discretionary {-}{}{}Cuda\discretionary {-}{}{}\_\discretionary {-}{}{}kernels.hh File Reference}{109}{section.8.9}
+\contentsline {subsection}{\numberline {8.9.1}Detailed Description}{109}{subsection.8.9.1}
+\contentsline {subsection}{\numberline {8.9.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{110}{subsection.8.9.2}
+\contentsline {subsection}{\numberline {8.9.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{110}{subsection.8.9.3}
+\contentsline {subsection}{\numberline {8.9.4}Function Documentation}{110}{subsection.8.9.4}
+\contentsline {subsubsection}{\numberline {8.9.4.1}compute\discretionary {-}{}{}Net\discretionary {-}{}{}Updates\discretionary {-}{}{}Kernel}{110}{subsubsection.8.9.4.1}
+\contentsline {subsubsection}{\numberline {8.9.4.2}compute\discretionary {-}{}{}One\discretionary {-}{}{}D\discretionary {-}{}{}Position\discretionary {-}{}{}Kernel}{112}{subsubsection.8.9.4.2}
+\contentsline {subsubsection}{\numberline {8.9.4.3}update\discretionary {-}{}{}Unknowns\discretionary {-}{}{}Kernel}{112}{subsubsection.8.9.4.3}
+\contentsline {section}{\numberline {8.10}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/rusanov/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block.cpp File Reference}{113}{section.8.10}
+\contentsline {subsection}{\numberline {8.10.1}Detailed Description}{113}{subsection.8.10.1}
+\contentsline {subsection}{\numberline {8.10.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{113}{subsection.8.10.2}
+\contentsline {subsection}{\numberline {8.10.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{113}{subsection.8.10.3}
+\contentsline {subsection}{\numberline {8.10.4}Function Documentation}{114}{subsection.8.10.4}
+\contentsline {subsubsection}{\numberline {8.10.4.1}operator$<$$<$}{114}{subsubsection.8.10.4.1}
+\contentsline {section}{\numberline {8.11}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/rusanov/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block.hh File Reference}{114}{section.8.11}
+\contentsline {subsection}{\numberline {8.11.1}Detailed Description}{114}{subsection.8.11.1}
+\contentsline {subsection}{\numberline {8.11.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{114}{subsection.8.11.2}
+\contentsline {subsection}{\numberline {8.11.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{114}{subsection.8.11.3}
+\contentsline {subsection}{\numberline {8.11.4}Function Documentation}{114}{subsection.8.11.4}
+\contentsline {subsubsection}{\numberline {8.11.4.1}operator$<$$<$}{115}{subsubsection.8.11.4.1}
+\contentsline {section}{\numberline {8.12}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/rusanov/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A.cu File Reference}{115}{section.8.12}
+\contentsline {subsection}{\numberline {8.12.1}Detailed Description}{115}{subsection.8.12.1}
+\contentsline {subsection}{\numberline {8.12.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{115}{subsection.8.12.2}
+\contentsline {subsection}{\numberline {8.12.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{115}{subsection.8.12.3}
+\contentsline {subsection}{\numberline {8.12.4}Function Documentation}{115}{subsection.8.12.4}
+\contentsline {subsubsection}{\numberline {8.12.4.1}operator$<$$<$}{115}{subsubsection.8.12.4.1}
+\contentsline {section}{\numberline {8.13}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/rusanov/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A.hh File Reference}{116}{section.8.13}
+\contentsline {subsection}{\numberline {8.13.1}Detailed Description}{116}{subsection.8.13.1}
+\contentsline {subsection}{\numberline {8.13.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{116}{subsection.8.13.2}
+\contentsline {subsection}{\numberline {8.13.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{116}{subsection.8.13.3}
+\contentsline {subsection}{\numberline {8.13.4}Function Documentation}{116}{subsection.8.13.4}
+\contentsline {subsubsection}{\numberline {8.13.4.1}operator$<$$<$}{116}{subsubsection.8.13.4.1}
+\contentsline {section}{\numberline {8.14}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/rusanov/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}\_\discretionary {-}{}{}kernels.cu File Reference}{117}{section.8.14}
+\contentsline {subsection}{\numberline {8.14.1}Detailed Description}{117}{subsection.8.14.1}
+\contentsline {subsection}{\numberline {8.14.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{117}{subsection.8.14.2}
+\contentsline {subsection}{\numberline {8.14.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{117}{subsection.8.14.3}
+\contentsline {subsection}{\numberline {8.14.4}Function Documentation}{117}{subsection.8.14.4}
+\contentsline {subsubsection}{\numberline {8.14.4.1}kernel\discretionary {-}{}{}Compute\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}Sources}{117}{subsubsection.8.14.4.1}
+\contentsline {subsubsection}{\numberline {8.14.4.2}kernel\discretionary {-}{}{}Compute\discretionary {-}{}{}Fluxes\discretionary {-}{}{}F}{118}{subsubsection.8.14.4.2}
+\contentsline {subsubsection}{\numberline {8.14.4.3}kernel\discretionary {-}{}{}Compute\discretionary {-}{}{}Fluxes\discretionary {-}{}{}G}{118}{subsubsection.8.14.4.3}
+\contentsline {subsubsection}{\numberline {8.14.4.4}kernel\discretionary {-}{}{}Euler\discretionary {-}{}{}Timestep}{118}{subsubsection.8.14.4.4}
+\contentsline {subsubsection}{\numberline {8.14.4.5}kernel\discretionary {-}{}{}Maximum}{118}{subsubsection.8.14.4.5}
+\contentsline {section}{\numberline {8.15}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/rusanov/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Rusanov\discretionary {-}{}{}Block\discretionary {-}{}{}C\discretionary {-}{}{}U\discretionary {-}{}{}D\discretionary {-}{}{}A\discretionary {-}{}{}\_\discretionary {-}{}{}kernels.hh File Reference}{118}{section.8.15}
+\contentsline {subsection}{\numberline {8.15.1}Detailed Description}{118}{subsection.8.15.1}
+\contentsline {subsection}{\numberline {8.15.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{118}{subsection.8.15.2}
+\contentsline {subsection}{\numberline {8.15.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{119}{subsection.8.15.3}
+\contentsline {subsection}{\numberline {8.15.4}Function Documentation}{119}{subsection.8.15.4}
+\contentsline {subsubsection}{\numberline {8.15.4.1}kernel\discretionary {-}{}{}Compute\discretionary {-}{}{}Bathymetry\discretionary {-}{}{}Sources}{119}{subsubsection.8.15.4.1}
+\contentsline {subsubsection}{\numberline {8.15.4.2}kernel\discretionary {-}{}{}Compute\discretionary {-}{}{}Fluxes\discretionary {-}{}{}F}{119}{subsubsection.8.15.4.2}
+\contentsline {subsubsection}{\numberline {8.15.4.3}kernel\discretionary {-}{}{}Compute\discretionary {-}{}{}Fluxes\discretionary {-}{}{}G}{119}{subsubsection.8.15.4.3}
+\contentsline {subsubsection}{\numberline {8.15.4.4}kernel\discretionary {-}{}{}Euler\discretionary {-}{}{}Timestep}{119}{subsubsection.8.15.4.4}
+\contentsline {subsubsection}{\numberline {8.15.4.5}kernel\discretionary {-}{}{}Maximum}{119}{subsubsection.8.15.4.5}
+\contentsline {section}{\numberline {8.16}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block.cpp File Reference}{119}{section.8.16}
+\contentsline {subsection}{\numberline {8.16.1}Detailed Description}{119}{subsection.8.16.1}
+\contentsline {subsection}{\numberline {8.16.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{120}{subsection.8.16.2}
+\contentsline {subsection}{\numberline {8.16.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{120}{subsection.8.16.3}
+\contentsline {section}{\numberline {8.17}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Block.hh File Reference}{120}{section.8.17}
+\contentsline {subsection}{\numberline {8.17.1}Detailed Description}{120}{subsection.8.17.1}
+\contentsline {subsection}{\numberline {8.17.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{120}{subsection.8.17.2}
+\contentsline {subsection}{\numberline {8.17.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{121}{subsection.8.17.3}
+\contentsline {section}{\numberline {8.18}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block.cpp File Reference}{121}{section.8.18}
+\contentsline {subsection}{\numberline {8.18.1}Detailed Description}{121}{subsection.8.18.1}
+\contentsline {subsection}{\numberline {8.18.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{121}{subsection.8.18.2}
+\contentsline {subsection}{\numberline {8.18.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{121}{subsection.8.18.3}
+\contentsline {section}{\numberline {8.19}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/blocks/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation\discretionary {-}{}{}Block.hh File Reference}{122}{section.8.19}
+\contentsline {subsection}{\numberline {8.19.1}Detailed Description}{122}{subsection.8.19.1}
+\contentsline {subsection}{\numberline {8.19.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{122}{subsection.8.19.2}
+\contentsline {subsection}{\numberline {8.19.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{122}{subsection.8.19.3}
+\contentsline {section}{\numberline {8.20}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/examples/swe\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Dimensional\discretionary {-}{}{}Splitting.cpp File Reference}{122}{section.8.20}
+\contentsline {subsection}{\numberline {8.20.1}Detailed Description}{123}{subsection.8.20.1}
+\contentsline {subsection}{\numberline {8.20.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{123}{subsection.8.20.2}
+\contentsline {subsection}{\numberline {8.20.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{123}{subsection.8.20.3}
+\contentsline {subsection}{\numberline {8.20.4}Function Documentation}{123}{subsection.8.20.4}
+\contentsline {subsubsection}{\numberline {8.20.4.1}main}{123}{subsubsection.8.20.4.1}
+\contentsline {section}{\numberline {8.21}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/examples/swe\discretionary {-}{}{}\_\discretionary {-}{}{}mpi.cpp File Reference}{124}{section.8.21}
+\contentsline {subsection}{\numberline {8.21.1}Detailed Description}{124}{subsection.8.21.1}
+\contentsline {subsection}{\numberline {8.21.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{124}{subsection.8.21.2}
+\contentsline {subsection}{\numberline {8.21.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{125}{subsection.8.21.3}
+\contentsline {subsection}{\numberline {8.21.4}Function Documentation}{125}{subsection.8.21.4}
+\contentsline {subsubsection}{\numberline {8.21.4.1}compute\discretionary {-}{}{}Number\discretionary {-}{}{}Of\discretionary {-}{}{}Block\discretionary {-}{}{}Rows}{125}{subsubsection.8.21.4.1}
+\contentsline {subsubsection}{\numberline {8.21.4.2}exchange\discretionary {-}{}{}Bottom\discretionary {-}{}{}Top\discretionary {-}{}{}Ghost\discretionary {-}{}{}Layers}{125}{subsubsection.8.21.4.2}
+\contentsline {subsubsection}{\numberline {8.21.4.3}exchange\discretionary {-}{}{}Left\discretionary {-}{}{}Right\discretionary {-}{}{}Ghost\discretionary {-}{}{}Layers}{125}{subsubsection.8.21.4.3}
+\contentsline {subsubsection}{\numberline {8.21.4.4}main}{126}{subsubsection.8.21.4.4}
+\contentsline {section}{\numberline {8.22}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/examples/swe\discretionary {-}{}{}\_\discretionary {-}{}{}simple.cpp File Reference}{126}{section.8.22}
+\contentsline {subsection}{\numberline {8.22.1}Detailed Description}{127}{subsection.8.22.1}
+\contentsline {subsection}{\numberline {8.22.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{127}{subsection.8.22.2}
+\contentsline {subsection}{\numberline {8.22.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{127}{subsection.8.22.3}
+\contentsline {subsection}{\numberline {8.22.4}Function Documentation}{127}{subsection.8.22.4}
+\contentsline {subsubsection}{\numberline {8.22.4.1}main}{127}{subsubsection.8.22.4.1}
+\contentsline {section}{\numberline {8.23}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/opengl/vbo.cpp File Reference}{128}{section.8.23}
+\contentsline {subsection}{\numberline {8.23.1}Detailed Description}{128}{subsection.8.23.1}
+\contentsline {subsection}{\numberline {8.23.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{128}{subsection.8.23.2}
+\contentsline {section}{\numberline {8.24}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/opengl/vbo.h File Reference}{128}{section.8.24}
+\contentsline {subsection}{\numberline {8.24.1}Detailed Description}{128}{subsection.8.24.1}
+\contentsline {subsection}{\numberline {8.24.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{128}{subsection.8.24.2}
+\contentsline {subsection}{\numberline {8.24.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{129}{subsection.8.24.3}
+\contentsline {section}{\numberline {8.25}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Artificial\discretionary {-}{}{}Tsunami\discretionary {-}{}{}Scenario.hh File Reference}{129}{section.8.25}
+\contentsline {subsection}{\numberline {8.25.1}Detailed Description}{129}{subsection.8.25.1}
+\contentsline {subsection}{\numberline {8.25.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{129}{subsection.8.25.2}
+\contentsline {subsection}{\numberline {8.25.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{129}{subsection.8.25.3}
+\contentsline {section}{\numberline {8.26}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Asagi\discretionary {-}{}{}Scenario.cpp File Reference}{129}{section.8.26}
+\contentsline {subsection}{\numberline {8.26.1}Detailed Description}{130}{subsection.8.26.1}
+\contentsline {subsection}{\numberline {8.26.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{130}{subsection.8.26.2}
+\contentsline {section}{\numberline {8.27}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Asagi\discretionary {-}{}{}Scenario.hh File Reference}{130}{section.8.27}
+\contentsline {subsection}{\numberline {8.27.1}Detailed Description}{130}{subsection.8.27.1}
+\contentsline {subsection}{\numberline {8.27.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{130}{subsection.8.27.2}
+\contentsline {subsection}{\numberline {8.27.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{131}{subsection.8.27.3}
+\contentsline {section}{\numberline {8.28}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Asagi\discretionary {-}{}{}Scenario\discretionary {-}{}{}\_\discretionary {-}{}{}vis.hh File Reference}{131}{section.8.28}
+\contentsline {subsection}{\numberline {8.28.1}Detailed Description}{131}{subsection.8.28.1}
+\contentsline {subsection}{\numberline {8.28.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{131}{subsection.8.28.2}
+\contentsline {subsection}{\numberline {8.28.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{131}{subsection.8.28.3}
+\contentsline {section}{\numberline {8.29}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Net\discretionary {-}{}{}C\discretionary {-}{}{}D\discretionary {-}{}{}F\discretionary {-}{}{}Checkpoint\discretionary {-}{}{}Scenario.hh File Reference}{132}{section.8.29}
+\contentsline {subsection}{\numberline {8.29.1}Detailed Description}{132}{subsection.8.29.1}
+\contentsline {subsection}{\numberline {8.29.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{132}{subsection.8.29.2}
+\contentsline {subsection}{\numberline {8.29.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{132}{subsection.8.29.3}
+\contentsline {section}{\numberline {8.30}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Scenario.hh File Reference}{132}{section.8.30}
+\contentsline {subsection}{\numberline {8.30.1}Detailed Description}{133}{subsection.8.30.1}
+\contentsline {subsection}{\numberline {8.30.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{133}{subsection.8.30.2}
+\contentsline {subsection}{\numberline {8.30.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{133}{subsection.8.30.3}
+\contentsline {subsection}{\numberline {8.30.4}Typedef Documentation}{133}{subsection.8.30.4}
+\contentsline {subsubsection}{\numberline {8.30.4.1}Boundary\discretionary {-}{}{}Edge}{133}{subsubsection.8.30.4.1}
+\contentsline {subsubsection}{\numberline {8.30.4.2}Boundary\discretionary {-}{}{}Type}{133}{subsubsection.8.30.4.2}
+\contentsline {subsection}{\numberline {8.30.5}Enumeration Type Documentation}{133}{subsection.8.30.5}
+\contentsline {subsubsection}{\numberline {8.30.5.1}Boundary\discretionary {-}{}{}Edge}{133}{subsubsection.8.30.5.1}
+\contentsline {subsubsection}{\numberline {8.30.5.2}Boundary\discretionary {-}{}{}Type}{133}{subsubsection.8.30.5.2}
+\contentsline {section}{\numberline {8.31}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}simple\discretionary {-}{}{}\_\discretionary {-}{}{}scenarios.hh File Reference}{133}{section.8.31}
+\contentsline {subsection}{\numberline {8.31.1}Detailed Description}{134}{subsection.8.31.1}
+\contentsline {subsection}{\numberline {8.31.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{134}{subsection.8.31.2}
+\contentsline {subsection}{\numberline {8.31.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{134}{subsection.8.31.3}
+\contentsline {section}{\numberline {8.32}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Tsunami\discretionary {-}{}{}Scenario.hh File Reference}{134}{section.8.32}
+\contentsline {subsection}{\numberline {8.32.1}Detailed Description}{135}{subsection.8.32.1}
+\contentsline {subsection}{\numberline {8.32.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{135}{subsection.8.32.2}
+\contentsline {subsection}{\numberline {8.32.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{135}{subsection.8.32.3}
+\contentsline {section}{\numberline {8.33}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/scenarios/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Vis\discretionary {-}{}{}Info.hh File Reference}{135}{section.8.33}
+\contentsline {subsection}{\numberline {8.33.1}Detailed Description}{135}{subsection.8.33.1}
+\contentsline {subsection}{\numberline {8.33.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{135}{subsection.8.33.2}
+\contentsline {subsection}{\numberline {8.33.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{136}{subsection.8.33.3}
+\contentsline {section}{\numberline {8.34}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/testing/testing\discretionary {-}{}{}\_\discretionary {-}{}{}scenario.hh File Reference}{136}{section.8.34}
+\contentsline {subsection}{\numberline {8.34.1}Detailed Description}{136}{subsection.8.34.1}
+\contentsline {subsection}{\numberline {8.34.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{136}{subsection.8.34.2}
+\contentsline {subsection}{\numberline {8.34.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{136}{subsection.8.34.3}
+\contentsline {section}{\numberline {8.35}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/tools/help.hh File Reference}{136}{section.8.35}
+\contentsline {subsection}{\numberline {8.35.1}Detailed Description}{137}{subsection.8.35.1}
+\contentsline {subsection}{\numberline {8.35.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{137}{subsection.8.35.2}
+\contentsline {subsection}{\numberline {8.35.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{137}{subsection.8.35.3}
+\contentsline {subsection}{\numberline {8.35.4}Function Documentation}{137}{subsection.8.35.4}
+\contentsline {subsubsection}{\numberline {8.35.4.1}generate\discretionary {-}{}{}Base\discretionary {-}{}{}File\discretionary {-}{}{}Name}{137}{subsubsection.8.35.4.1}
+\contentsline {subsubsection}{\numberline {8.35.4.2}generate\discretionary {-}{}{}Container\discretionary {-}{}{}File\discretionary {-}{}{}Name}{137}{subsubsection.8.35.4.2}
+\contentsline {subsubsection}{\numberline {8.35.4.3}generate\discretionary {-}{}{}File\discretionary {-}{}{}Name}{138}{subsubsection.8.35.4.3}
+\contentsline {subsubsection}{\numberline {8.35.4.4}generate\discretionary {-}{}{}File\discretionary {-}{}{}Name}{138}{subsubsection.8.35.4.4}
+\contentsline {subsubsection}{\numberline {8.35.4.5}generate\discretionary {-}{}{}File\discretionary {-}{}{}Name}{138}{subsubsection.8.35.4.5}
+\contentsline {section}{\numberline {8.36}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/tools/\discretionary {-}{}{}Logger.cpp File Reference}{138}{section.8.36}
+\contentsline {subsection}{\numberline {8.36.1}Detailed Description}{138}{subsection.8.36.1}
+\contentsline {subsection}{\numberline {8.36.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{138}{subsection.8.36.2}
+\contentsline {section}{\numberline {8.37}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/tools/\discretionary {-}{}{}Logger.hh File Reference}{139}{section.8.37}
+\contentsline {subsection}{\numberline {8.37.1}Detailed Description}{139}{subsection.8.37.1}
+\contentsline {subsection}{\numberline {8.37.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{139}{subsection.8.37.2}
+\contentsline {subsection}{\numberline {8.37.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{139}{subsection.8.37.3}
+\contentsline {section}{\numberline {8.38}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/tools/\discretionary {-}{}{}Progress\discretionary {-}{}{}Bar.hh File Reference}{140}{section.8.38}
+\contentsline {subsection}{\numberline {8.38.1}Detailed Description}{140}{subsection.8.38.1}
+\contentsline {subsection}{\numberline {8.38.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{140}{subsection.8.38.2}
+\contentsline {subsection}{\numberline {8.38.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{140}{subsection.8.38.3}
+\contentsline {section}{\numberline {8.39}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/writer/\discretionary {-}{}{}Boye\discretionary {-}{}{}Writer.cpp File Reference}{140}{section.8.39}
+\contentsline {subsection}{\numberline {8.39.1}Detailed Description}{140}{subsection.8.39.1}
+\contentsline {subsection}{\numberline {8.39.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{141}{subsection.8.39.2}
+\contentsline {subsection}{\numberline {8.39.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{141}{subsection.8.39.3}
+\contentsline {section}{\numberline {8.40}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/writer/\discretionary {-}{}{}Boye\discretionary {-}{}{}Writer.hh File Reference}{141}{section.8.40}
+\contentsline {subsection}{\numberline {8.40.1}Detailed Description}{141}{subsection.8.40.1}
+\contentsline {subsection}{\numberline {8.40.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{141}{subsection.8.40.2}
+\contentsline {subsection}{\numberline {8.40.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{142}{subsection.8.40.3}
+\contentsline {section}{\numberline {8.41}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/writer/\discretionary {-}{}{}Net\discretionary {-}{}{}Cdf\discretionary {-}{}{}Writer.cpp File Reference}{142}{section.8.41}
+\contentsline {subsection}{\numberline {8.41.1}Detailed Description}{142}{subsection.8.41.1}
+\contentsline {subsection}{\numberline {8.41.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{142}{subsection.8.41.2}
+\contentsline {subsection}{\numberline {8.41.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{142}{subsection.8.41.3}
+\contentsline {section}{\numberline {8.42}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/writer/\discretionary {-}{}{}Net\discretionary {-}{}{}Cdf\discretionary {-}{}{}Writer.hh File Reference}{142}{section.8.42}
+\contentsline {subsection}{\numberline {8.42.1}Detailed Description}{143}{subsection.8.42.1}
+\contentsline {subsection}{\numberline {8.42.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{143}{subsection.8.42.2}
+\contentsline {subsection}{\numberline {8.42.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{143}{subsection.8.42.3}
+\contentsline {section}{\numberline {8.43}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/writer/\discretionary {-}{}{}Vtk\discretionary {-}{}{}Writer.cpp File Reference}{143}{section.8.43}
+\contentsline {subsection}{\numberline {8.43.1}Detailed Description}{143}{subsection.8.43.1}
+\contentsline {subsection}{\numberline {8.43.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{143}{subsection.8.43.2}
+\contentsline {subsection}{\numberline {8.43.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{144}{subsection.8.43.3}
+\contentsline {section}{\numberline {8.44}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/writer/\discretionary {-}{}{}Vtk\discretionary {-}{}{}Writer.hh File Reference}{144}{section.8.44}
+\contentsline {subsection}{\numberline {8.44.1}Detailed Description}{144}{subsection.8.44.1}
+\contentsline {subsection}{\numberline {8.44.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{144}{subsection.8.44.2}
+\contentsline {subsection}{\numberline {8.44.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{144}{subsection.8.44.3}
+\contentsline {section}{\numberline {8.45}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/src/writer/\discretionary {-}{}{}Writer.hh File Reference}{144}{section.8.45}
+\contentsline {subsection}{\numberline {8.45.1}Detailed Description}{145}{subsection.8.45.1}
+\contentsline {subsection}{\numberline {8.45.2}L\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E\discretionary {-}{}{}N\discretionary {-}{}{}S\discretionary {-}{}{}E}{145}{subsection.8.45.2}
+\contentsline {subsection}{\numberline {8.45.3}D\discretionary {-}{}{}E\discretionary {-}{}{}S\discretionary {-}{}{}C\discretionary {-}{}{}R\discretionary {-}{}{}I\discretionary {-}{}{}P\discretionary {-}{}{}T\discretionary {-}{}{}I\discretionary {-}{}{}O\discretionary {-}{}{}N}{145}{subsection.8.45.3}
+\contentsline {section}{\numberline {8.46}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/f-\/wave-\/solver/src/\discretionary {-}{}{}F\discretionary {-}{}{}Wave.cpp File Reference}{145}{section.8.46}
+\contentsline {subsection}{\numberline {8.46.1}Detailed Description}{145}{subsection.8.46.1}
+\contentsline {section}{\numberline {8.47}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/f-\/wave-\/solver/src/\discretionary {-}{}{}F\discretionary {-}{}{}Wave.hpp File Reference}{145}{section.8.47}
+\contentsline {subsection}{\numberline {8.47.1}Detailed Description}{146}{subsection.8.47.1}
+\contentsline {section}{\numberline {8.48}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/main.cpp File Reference}{146}{section.8.48}
+\contentsline {subsection}{\numberline {8.48.1}Detailed Description}{146}{subsection.8.48.1}
+\contentsline {section}{\numberline {8.49}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/scenarios/constant\discretionary {-}{}{}\_\discretionary {-}{}{}flow.h File Reference}{147}{section.8.49}
+\contentsline {subsection}{\numberline {8.49.1}Detailed Description}{147}{subsection.8.49.1}
+\contentsline {section}{\numberline {8.50}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/scenarios/dambreak.h File Reference}{147}{section.8.50}
+\contentsline {subsection}{\numberline {8.50.1}Detailed Description}{148}{subsection.8.50.1}
+\contentsline {section}{\numberline {8.51}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/scenarios/dambreak\discretionary {-}{}{}\_\discretionary {-}{}{}bathy.h File Reference}{148}{section.8.51}
+\contentsline {subsection}{\numberline {8.51.1}Detailed Description}{148}{subsection.8.51.1}
+\contentsline {section}{\numberline {8.52}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/scenarios/eisbach.h File Reference}{149}{section.8.52}
+\contentsline {subsection}{\numberline {8.52.1}Detailed Description}{149}{subsection.8.52.1}
+\contentsline {section}{\numberline {8.53}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/scenarios/rarerare.h File Reference}{150}{section.8.53}
+\contentsline {subsection}{\numberline {8.53.1}Detailed Description}{150}{subsection.8.53.1}
+\contentsline {section}{\numberline {8.54}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/scenarios/\discretionary {-}{}{}Shock\discretionary {-}{}{}Shock.h File Reference}{151}{section.8.54}
+\contentsline {subsection}{\numberline {8.54.1}Detailed Description}{151}{subsection.8.54.1}
+\contentsline {section}{\numberline {8.55}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/scenarios/\discretionary {-}{}{}Subcritical\discretionary {-}{}{}\_\discretionary {-}{}{}flow.h File Reference}{151}{section.8.55}
+\contentsline {subsection}{\numberline {8.55.1}Detailed Description}{152}{subsection.8.55.1}
+\contentsline {section}{\numberline {8.56}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/scenarios/\discretionary {-}{}{}Supercritical\discretionary {-}{}{}\_\discretionary {-}{}{}flow.h File Reference}{152}{section.8.56}
+\contentsline {subsection}{\numberline {8.56.1}Detailed Description}{152}{subsection.8.56.1}
+\contentsline {section}{\numberline {8.57}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/tools/args.cpp File Reference}{153}{section.8.57}
+\contentsline {subsection}{\numberline {8.57.1}Detailed Description}{153}{subsection.8.57.1}
+\contentsline {section}{\numberline {8.58}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/tools/args.h File Reference}{154}{section.8.58}
+\contentsline {subsection}{\numberline {8.58.1}Detailed Description}{154}{subsection.8.58.1}
+\contentsline {section}{\numberline {8.59}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/tools/logger.cpp File Reference}{155}{section.8.59}
+\contentsline {subsection}{\numberline {8.59.1}Detailed Description}{155}{subsection.8.59.1}
+\contentsline {section}{\numberline {8.60}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/tools/logger.h File Reference}{155}{section.8.60}
+\contentsline {subsection}{\numberline {8.60.1}Detailed Description}{155}{subsection.8.60.1}
+\contentsline {section}{\numberline {8.61}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/types.h File Reference}{156}{section.8.61}
+\contentsline {subsection}{\numberline {8.61.1}Detailed Description}{156}{subsection.8.61.1}
+\contentsline {section}{\numberline {8.62}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation.cpp File Reference}{157}{section.8.62}
+\contentsline {subsection}{\numberline {8.62.1}Detailed Description}{157}{subsection.8.62.1}
+\contentsline {section}{\numberline {8.63}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/\discretionary {-}{}{}Wave\discretionary {-}{}{}Propagation.h File Reference}{157}{section.8.63}
+\contentsline {subsection}{\numberline {8.63.1}Detailed Description}{158}{subsection.8.63.1}
+\contentsline {section}{\numberline {8.64}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/writer/\discretionary {-}{}{}Console\discretionary {-}{}{}Writer.h File Reference}{158}{section.8.64}
+\contentsline {subsection}{\numberline {8.64.1}Detailed Description}{158}{subsection.8.64.1}
+\contentsline {section}{\numberline {8.65}/home/thomas/\discretionary {-}{}{}Dokumente/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E/submodules/\discretionary {-}{}{}S\discretionary {-}{}{}W\discretionary {-}{}{}E1\discretionary {-}{}{}D/src/writer/\discretionary {-}{}{}Vtk\discretionary {-}{}{}Writer.h File Reference}{159}{section.8.65}
+\contentsline {subsection}{\numberline {8.65.1}Detailed Description}{159}{subsection.8.65.1}
+\contentsline {part}{Index}{160}{subsection.8.65.1}

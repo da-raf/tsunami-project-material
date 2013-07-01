@@ -1,0 +1,241 @@
+\hypertarget{classSWE__TsunamiScenario}{\section{S\-W\-E\-\_\-\-Tsunami\-Scenario Class Reference}
+\label{classSWE__TsunamiScenario}\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+}
+Inheritance diagram for S\-W\-E\-\_\-\-Tsunami\-Scenario\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classSWE__TsunamiScenario}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{classSWE__TsunamiScenario_a134b99facf6169d2ef1edf0e5199b736}{get\-Water\-Height} (float x, float y)
+\item 
+float \hyperlink{classSWE__TsunamiScenario_abe7040ce4bc68d2d1fc49c656f576e6b}{get\-Dynamic\-Bathymetry} (float x, float y, float time)
+\item 
+float \hyperlink{classSWE__TsunamiScenario_aa53275f0c9fb683012027cf22e9f6cc5}{get\-Eruption\-Duration} ()
+\item 
+float \hyperlink{classSWE__TsunamiScenario_ab627e412b825638fce7c05441335e04c}{get\-Eruption\-Resolution} ()
+\item 
+float \hyperlink{classSWE__TsunamiScenario_aa2d2b0be8c3bc1d84ded47e075b5d433}{get\-Bathymetry} (float x, float y)
+\item 
+float \hyperlink{classSWE__TsunamiScenario_a2d7b506a09fa570511c29a910e3dddb1}{get\-Boundary\-Pos\-Displ} (\hyperlink{SWE__Scenario_8hh_aa5e01e3f7df312f7b9b0d02521141fcc}{Boundary\-Edge} i\-\_\-edge)
+\item 
+float \hyperlink{classSWE__TsunamiScenario_a701145868edb572d5958bbd739b80e0d}{get\-Boundary\-Pos} (\hyperlink{SWE__Scenario_8hh_aa5e01e3f7df312f7b9b0d02521141fcc}{Boundary\-Edge} i\-\_\-edge)
+\item 
+\hyperlink{SWE__Scenario_8hh_af75d5dd7322fa39ed0af4e7839e600f8}{Boundary\-Type} \hyperlink{classSWE__TsunamiScenario_add1e5ea1bf99e7602385e63f674ad9ad}{get\-Boundary\-Type} (\hyperlink{SWE__Scenario_8hh_aa5e01e3f7df312f7b9b0d02521141fcc}{Boundary\-Edge} edge)
+\item 
+int \hyperlink{classSWE__TsunamiScenario_a1dac5beed5b1a942e6fa8faa4ddc2312}{read\-Net\-C\-D\-F} (const char $\ast$file\-\_\-bathy, const char $\ast$file\-\_\-displ)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+const float \hyperlink{classSWE__TsunamiScenario_a09772b03c45cfe4dff59432055f2ce67}{bath\-\_\-min\-\_\-zero\-\_\-offset}
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classSWE__TsunamiScenario_aa2d2b0be8c3bc1d84ded47e075b5d433}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!get\-Bathymetry@{get\-Bathymetry}}
+\index{get\-Bathymetry@{get\-Bathymetry}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{get\-Bathymetry}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Tsunami\-Scenario\-::get\-Bathymetry (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_aa2d2b0be8c3bc1d84ded47e075b5d433}
+This funktion returns the Bathymetry at the Position (x,y) at time = Zero
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Requested x Position \\
+\hline
+{\em y} & Requested y Position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bathymetry ot Requested Position 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__TsunamiScenario_a701145868edb572d5958bbd739b80e0d}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!get\-Boundary\-Pos@{get\-Boundary\-Pos}}
+\index{get\-Boundary\-Pos@{get\-Boundary\-Pos}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{get\-Boundary\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Tsunami\-Scenario\-::get\-Boundary\-Pos (
+\begin{DoxyParamCaption}
+\item[{{\bf Boundary\-Edge}}]{i\-\_\-edge}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_a701145868edb572d5958bbd739b80e0d}
+get\-Boundary\-Pos will return the position of the boundary \#i\-\_\-edge on the axis orthogonal to the boundary
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\-\_\-edge} & the boundary we want to get the position of \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the position of the boundary on the axis orthogonal to it 
+\end{DoxyReturn}
+variable I\-D of the axis orthogonal to the boundary
+
+position of the boundary on the axis
+
+error value from the netcdf call 
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__TsunamiScenario_a2d7b506a09fa570511c29a910e3dddb1}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!get\-Boundary\-Pos\-Displ@{get\-Boundary\-Pos\-Displ}}
+\index{get\-Boundary\-Pos\-Displ@{get\-Boundary\-Pos\-Displ}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{get\-Boundary\-Pos\-Displ}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Tsunami\-Scenario\-::get\-Boundary\-Pos\-Displ (
+\begin{DoxyParamCaption}
+\item[{{\bf Boundary\-Edge}}]{i\-\_\-edge}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_a2d7b506a09fa570511c29a910e3dddb1}
+get\-Boundary\-Pos\-Displ will return the position of the Displacementboundary \#i\-\_\-edge on the axis orthogonal to the boundary
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\-\_\-edge} & the boundary we want to get the position of \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the position of the Displacement boundary on the axis orthogonal to it 
+\end{DoxyReturn}
+variable I\-D of the axis orthogonal to the boundary
+
+position of the boundary on the axis
+
+error value from the netcdf call 
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__TsunamiScenario_add1e5ea1bf99e7602385e63f674ad9ad}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!get\-Boundary\-Type@{get\-Boundary\-Type}}
+\index{get\-Boundary\-Type@{get\-Boundary\-Type}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{get\-Boundary\-Type}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Boundary\-Type} S\-W\-E\-\_\-\-Tsunami\-Scenario\-::get\-Boundary\-Type (
+\begin{DoxyParamCaption}
+\item[{{\bf Boundary\-Edge}}]{edge}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_add1e5ea1bf99e7602385e63f674ad9ad}
+This Funktion returns the Boundary\-Type at edge (edge)
+
+
+\begin{DoxyParams}{Parameters}
+{\em edge} & Requested Boundary\-Edge \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Boundary\-Type of the edge 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__TsunamiScenario_abe7040ce4bc68d2d1fc49c656f576e6b}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!get\-Dynamic\-Bathymetry@{get\-Dynamic\-Bathymetry}}
+\index{get\-Dynamic\-Bathymetry@{get\-Dynamic\-Bathymetry}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{get\-Dynamic\-Bathymetry}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Tsunami\-Scenario\-::get\-Dynamic\-Bathymetry (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y, }
+\item[{float}]{time}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_abe7040ce4bc68d2d1fc49c656f576e6b}
+This funktion returns the Bathymetry at the Position (x,y) and time (time)
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Requested x Position \\
+\hline
+{\em y} & Requested y Position \\
+\hline
+{\em time} & Requested Time \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bathymetry ot Requested Position 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__TsunamiScenario_aa53275f0c9fb683012027cf22e9f6cc5}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!get\-Eruption\-Duration@{get\-Eruption\-Duration}}
+\index{get\-Eruption\-Duration@{get\-Eruption\-Duration}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{get\-Eruption\-Duration}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Tsunami\-Scenario\-::get\-Eruption\-Duration (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_aa53275f0c9fb683012027cf22e9f6cc5}
+This Function returns Duration of Earthquake 
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__TsunamiScenario_ab627e412b825638fce7c05441335e04c}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!get\-Eruption\-Resolution@{get\-Eruption\-Resolution}}
+\index{get\-Eruption\-Resolution@{get\-Eruption\-Resolution}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{get\-Eruption\-Resolution}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Tsunami\-Scenario\-::get\-Eruption\-Resolution (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_ab627e412b825638fce7c05441335e04c}
+This function returns Resolution of Displacement Data over Time 
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__TsunamiScenario_a134b99facf6169d2ef1edf0e5199b736}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!get\-Water\-Height@{get\-Water\-Height}}
+\index{get\-Water\-Height@{get\-Water\-Height}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{get\-Water\-Height}]{\setlength{\rightskip}{0pt plus 5cm}float S\-W\-E\-\_\-\-Tsunami\-Scenario\-::get\-Water\-Height (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_a134b99facf6169d2ef1edf0e5199b736}
+This funktion returns the Water Height at the Position (x,y)
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & Requested x Position \\
+\hline
+{\em y} & Requested y Position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Waterheight ot Requested Position 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+\hypertarget{classSWE__TsunamiScenario_a1dac5beed5b1a942e6fa8faa4ddc2312}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!read\-Net\-C\-D\-F@{read\-Net\-C\-D\-F}}
+\index{read\-Net\-C\-D\-F@{read\-Net\-C\-D\-F}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{read\-Net\-C\-D\-F}]{\setlength{\rightskip}{0pt plus 5cm}int S\-W\-E\-\_\-\-Tsunami\-Scenario\-::read\-Net\-C\-D\-F (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{file\-\_\-bathy, }
+\item[{const char $\ast$}]{file\-\_\-displ}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classSWE__TsunamiScenario_a1dac5beed5b1a942e6fa8faa4ddc2312}
+read\-Net\-C\-D\-F will initialize the ids of the nc file and the ids of all the variables which are being used
+
+
+\begin{DoxyParams}{Parameters}
+{\em file\-\_\-bathy} & the name of the nc-\/file containing the bathymetry \\
+\hline
+{\em file\-\_\-displ} & the name of the nc-\/file containing the displacements \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 if successful, else the error value of the netcdf-\/library 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classSWE__NetCDFScenario}{S\-W\-E\-\_\-\-Net\-C\-D\-F\-Scenario}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classSWE__TsunamiScenario_a09772b03c45cfe4dff59432055f2ce67}{\index{S\-W\-E\-\_\-\-Tsunami\-Scenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}!bath\-\_\-min\-\_\-zero\-\_\-offset@{bath\-\_\-min\-\_\-zero\-\_\-offset}}
+\index{bath\-\_\-min\-\_\-zero\-\_\-offset@{bath\-\_\-min\-\_\-zero\-\_\-offset}!SWE_TsunamiScenario@{S\-W\-E\-\_\-\-Tsunami\-Scenario}}
+\subsubsection[{bath\-\_\-min\-\_\-zero\-\_\-offset}]{\setlength{\rightskip}{0pt plus 5cm}const float S\-W\-E\-\_\-\-Tsunami\-Scenario\-::bath\-\_\-min\-\_\-zero\-\_\-offset}}\label{classSWE__TsunamiScenario_a09772b03c45cfe4dff59432055f2ce67}
+minimum elevation of the landmass and minimum depth of the water This is needed for simulating the coastlines realistically. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/src/scenarios/\hyperlink{SWE__TsunamiScenario_8hh}{S\-W\-E\-\_\-\-Tsunami\-Scenario.\-hh}\end{DoxyCompactItemize}

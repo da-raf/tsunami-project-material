@@ -1,0 +1,175 @@
+\hypertarget{classio_1_1NetCdfWriter}{\section{io\-:\-:Net\-Cdf\-Writer Class Reference}
+\label{classio_1_1NetCdfWriter}\index{io\-::\-Net\-Cdf\-Writer@{io\-::\-Net\-Cdf\-Writer}}
+}
+Inheritance diagram for io\-:\-:Net\-Cdf\-Writer\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classio_1_1NetCdfWriter}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classio_1_1NetCdfWriter_ae501eb8f2852c5fc4517b36b9b27007c}{Net\-Cdf\-Writer} (const std\-::string \&i\-\_\-file\-Name, const \hyperlink{classFloat2D}{Float2\-D} \&i\-\_\-b, const \hyperlink{structio_1_1BoundarySize}{Boundary\-Size} \&i\-\_\-boundary\-Size, int i\-\_\-n\-X, int i\-\_\-n\-Y, float i\-\_\-d\-X, float i\-\_\-d\-Y, float E\-Time, int coarse, bool newfile=false, bool dynamic=false, float i\-\_\-origin\-X=0., float i\-\_\-origin\-Y=0., unsigned int i\-\_\-flush=0)
+\item 
+virtual \hyperlink{classio_1_1NetCdfWriter_ace10f1b56bbb4a1b6c2092ed661a1a0d}{$\sim$\-Net\-Cdf\-Writer} ()
+\item 
+void \hyperlink{classio_1_1NetCdfWriter_a8e49f21f16b1720a348de50485754b0c}{write\-Time\-Step} (const \hyperlink{classFloat2D}{Float2\-D} \&i\-\_\-h, const \hyperlink{classFloat2D}{Float2\-D} \&i\-\_\-hu, const \hyperlink{classFloat2D}{Float2\-D} \&i\-\_\-hv, float i\-\_\-time)
+\item 
+void \hyperlink{classio_1_1NetCdfWriter_a35a2e5df658e7e95afd3acea193b22a4}{write\-Time\-Step} (const \hyperlink{classFloat2D}{Float2\-D} \&i\-\_\-h, const \hyperlink{classFloat2D}{Float2\-D} \&i\-\_\-hu, const \hyperlink{classFloat2D}{Float2\-D} \&i\-\_\-hv, const \hyperlink{classFloat2D}{Float2\-D} \&i\-\_\-b, float i\-\_\-time)
+\item 
+void \hyperlink{classio_1_1NetCdfWriter_a27a9b320ecaedb6083f27774fe6be384}{write\-Boundary} (\hyperlink{SWE__Scenario_8hh_af75d5dd7322fa39ed0af4e7839e600f8}{Boundary\-Type} top, \hyperlink{SWE__Scenario_8hh_af75d5dd7322fa39ed0af4e7839e600f8}{Boundary\-Type} bottom, \hyperlink{SWE__Scenario_8hh_af75d5dd7322fa39ed0af4e7839e600f8}{Boundary\-Type} left, \hyperlink{SWE__Scenario_8hh_af75d5dd7322fa39ed0af4e7839e600f8}{Boundary\-Type} right)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classio_1_1NetCdfWriter_ae501eb8f2852c5fc4517b36b9b27007c}{\index{io\-::\-Net\-Cdf\-Writer@{io\-::\-Net\-Cdf\-Writer}!Net\-Cdf\-Writer@{Net\-Cdf\-Writer}}
+\index{Net\-Cdf\-Writer@{Net\-Cdf\-Writer}!io::NetCdfWriter@{io\-::\-Net\-Cdf\-Writer}}
+\subsubsection[{Net\-Cdf\-Writer}]{\setlength{\rightskip}{0pt plus 5cm}io\-::\-Net\-Cdf\-Writer\-::\-Net\-Cdf\-Writer (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{i\-\_\-base\-Name, }
+\item[{const {\bf Float2\-D} \&}]{i\-\_\-b, }
+\item[{const {\bf Boundary\-Size} \&}]{i\-\_\-boundary\-Size, }
+\item[{int}]{i\-\_\-n\-X, }
+\item[{int}]{i\-\_\-n\-Y, }
+\item[{float}]{i\-\_\-d\-X, }
+\item[{float}]{i\-\_\-d\-Y, }
+\item[{float}]{E\-Time, }
+\item[{int}]{coarse, }
+\item[{bool}]{newfile = {\ttfamily false}, }
+\item[{bool}]{dynamic = {\ttfamily false}, }
+\item[{float}]{i\-\_\-origin\-X = {\ttfamily 0.}, }
+\item[{float}]{i\-\_\-origin\-Y = {\ttfamily 0.}, }
+\item[{unsigned int}]{i\-\_\-flush = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classio_1_1NetCdfWriter_ae501eb8f2852c5fc4517b36b9b27007c}
+Create a net\-Cdf-\/file Any existing file will be replaced.
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\-\_\-base\-Name} & base name of the net\-C\-D\-F-\/file to which the data will be written to. \\
+\hline
+{\em i\-\_\-n\-X} & number of cells in the horizontal direction. \\
+\hline
+{\em i\-\_\-n\-Y} & number of cells in the vertical direction. \\
+\hline
+{\em i\-\_\-d\-X} & cell size in x-\/direction. \\
+\hline
+{\em i\-\_\-d\-Y} & cell size in y-\/direction. \\
+\hline
+{\em E\-Time} & time simulation is propoused to run \\
+\hline
+{\em coarse} & rate of compromising output Data \\
+\hline
+{\em newfile} & true if there is no Check\-Point To load \\
+\hline
+{\em dynamic} & true if there is a Dynamic\-Displacement to write \\
+\hline
+{\em i\-\_\-origin\-X} & \\
+\hline
+{\em i\-\_\-origin\-Y} & \\
+\hline
+{\em i\-\_\-flush} & If $>$ 0, flush data to disk every i\-\_\-flush write operation \\
+\hline
+{\em i\-\_\-dynamic\-Bathymetry} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classio_1_1NetCdfWriter_ace10f1b56bbb4a1b6c2092ed661a1a0d}{\index{io\-::\-Net\-Cdf\-Writer@{io\-::\-Net\-Cdf\-Writer}!$\sim$\-Net\-Cdf\-Writer@{$\sim$\-Net\-Cdf\-Writer}}
+\index{$\sim$\-Net\-Cdf\-Writer@{$\sim$\-Net\-Cdf\-Writer}!io::NetCdfWriter@{io\-::\-Net\-Cdf\-Writer}}
+\subsubsection[{$\sim$\-Net\-Cdf\-Writer}]{\setlength{\rightskip}{0pt plus 5cm}io\-::\-Net\-Cdf\-Writer\-::$\sim$\-Net\-Cdf\-Writer (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classio_1_1NetCdfWriter_ace10f1b56bbb4a1b6c2092ed661a1a0d}
+Destructor of a net\-C\-D\-F-\/writer. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classio_1_1NetCdfWriter_a27a9b320ecaedb6083f27774fe6be384}{\index{io\-::\-Net\-Cdf\-Writer@{io\-::\-Net\-Cdf\-Writer}!write\-Boundary@{write\-Boundary}}
+\index{write\-Boundary@{write\-Boundary}!io::NetCdfWriter@{io\-::\-Net\-Cdf\-Writer}}
+\subsubsection[{write\-Boundary}]{\setlength{\rightskip}{0pt plus 5cm}void io\-::\-Net\-Cdf\-Writer\-::write\-Boundary (
+\begin{DoxyParamCaption}
+\item[{{\bf Boundary\-Type}}]{top, }
+\item[{{\bf Boundary\-Type}}]{bottom, }
+\item[{{\bf Boundary\-Type}}]{left, }
+\item[{{\bf Boundary\-Type}}]{right}
+\end{DoxyParamCaption}
+)}}\label{classio_1_1NetCdfWriter_a27a9b320ecaedb6083f27774fe6be384}
+Writes the Boudary\-Types for each edge to the Checkpointfile
+
+\subsubsection*{Translationtabel\-:}
+
+$|$\-O\-U\-T\-F\-L\-O\-W $|$ 0 $|$ $|$\-W\-A\-L\-L $|$ 1 $|$ $|$\-I\-N\-F\-L\-O\-W $|$ 2 $|$ $|$\-C\-O\-N\-N\-E\-C\-T $|$ 3 $|$ $|$\-P\-A\-S\-S\-I\-V\-E $|$ 4 $|$ \subsubsection*{$|$\-O\-T\-H\-E\-R\-S $|$ 5 $|$}
+
+Order of Edges in C\-P-\/\-File\-: \{B\-N\-D\-\_\-\-T\-O\-P,B\-N\-D\-\_\-\-B\-O\-T\-T\-O\-M,B\-N\-D\-\_\-\-L\-E\-F\-T,B\-N\-D\-\_\-\-R\-I\-G\-H\-T\}
+
+
+\begin{DoxyParams}{Parameters}
+{\em top} & Boundary\-Type at edge T\-O\-P \\
+\hline
+{\em bottom} & Boundary\-Type at edge B\-O\-T\-T\-O\-M \\
+\hline
+{\em left} & Boundary\-Type at edge L\-E\-F\-T \\
+\hline
+{\em right} & Boundary\-Type at edge R\-I\-G\-H\-T \\
+\hline
+\end{DoxyParams}
+\hypertarget{classio_1_1NetCdfWriter_a8e49f21f16b1720a348de50485754b0c}{\index{io\-::\-Net\-Cdf\-Writer@{io\-::\-Net\-Cdf\-Writer}!write\-Time\-Step@{write\-Time\-Step}}
+\index{write\-Time\-Step@{write\-Time\-Step}!io::NetCdfWriter@{io\-::\-Net\-Cdf\-Writer}}
+\subsubsection[{write\-Time\-Step}]{\setlength{\rightskip}{0pt plus 5cm}void io\-::\-Net\-Cdf\-Writer\-::write\-Time\-Step (
+\begin{DoxyParamCaption}
+\item[{const {\bf Float2\-D} \&}]{i\-\_\-h, }
+\item[{const {\bf Float2\-D} \&}]{i\-\_\-hu, }
+\item[{const {\bf Float2\-D} \&}]{i\-\_\-hv, }
+\item[{float}]{i\-\_\-time}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classio_1_1NetCdfWriter_a8e49f21f16b1720a348de50485754b0c}
+Writes the unknwons to a net\-C\-D\-F-\/file (-\/$>$ constructor) with respect to the boundary sizes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\-\_\-h} & water heights at a given time step. \\
+\hline
+{\em i\-\_\-hu} & momentums in x-\/direction at a given time step. \\
+\hline
+{\em i\-\_\-hv} & momentums in y-\/direction at a given time step. \\
+\hline
+{\em i\-\_\-time} & simulation time of the time step. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classio_1_1Writer_a9ac05caa91aca4e79094d6718a2da16c}{io\-::\-Writer}.
+
+\hypertarget{classio_1_1NetCdfWriter_a35a2e5df658e7e95afd3acea193b22a4}{\index{io\-::\-Net\-Cdf\-Writer@{io\-::\-Net\-Cdf\-Writer}!write\-Time\-Step@{write\-Time\-Step}}
+\index{write\-Time\-Step@{write\-Time\-Step}!io::NetCdfWriter@{io\-::\-Net\-Cdf\-Writer}}
+\subsubsection[{write\-Time\-Step}]{\setlength{\rightskip}{0pt plus 5cm}void io\-::\-Net\-Cdf\-Writer\-::write\-Time\-Step (
+\begin{DoxyParamCaption}
+\item[{const {\bf Float2\-D} \&}]{i\-\_\-h, }
+\item[{const {\bf Float2\-D} \&}]{i\-\_\-hu, }
+\item[{const {\bf Float2\-D} \&}]{i\-\_\-hv, }
+\item[{const {\bf Float2\-D} \&}]{i\-\_\-b, }
+\item[{float}]{i\-\_\-time}
+\end{DoxyParamCaption}
+)}}\label{classio_1_1NetCdfWriter_a35a2e5df658e7e95afd3acea193b22a4}
+Writes the unknwons to a net\-C\-D\-F-\/file (-\/$>$ constructor) with respect to the boundary sizes, including Dynamic Displacement.
+
+
+\begin{DoxyParams}{Parameters}
+{\em i\-\_\-h} & water heights at a given time step. \\
+\hline
+{\em i\-\_\-hu} & momentums in x-\/direction at a given time step. \\
+\hline
+{\em i\-\_\-hv} & momentums in y-\/direction at a given time step. \\
+\hline
+{\em i\-\_\-b} & bathymetry at a given time step. \\
+\hline
+{\em i\-\_\-time} & simulation time of the time step. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/src/writer/\hyperlink{NetCdfWriter_8hh}{Net\-Cdf\-Writer.\-hh}\item 
+/home/thomas/\-Dokumente/\-S\-W\-E/src/writer/\hyperlink{NetCdfWriter_8cpp}{Net\-Cdf\-Writer.\-cpp}\end{DoxyCompactItemize}
